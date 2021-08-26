@@ -5,6 +5,7 @@ import mwparserfromhell as mw
 from typing import *
 
 VERSION_EXTRACTOR = re.compile(r"(.*?)([0-9]+)?$")
+LINK_PATTERN = re.compile(r"\[\[(.+\|)?(.+)\]\]")
 
 
 def each_version(template_name: str, code, include_base: bool = False,
@@ -50,7 +51,7 @@ def each_version(template_name: str, code, include_base: bool = False,
 					yield (versionID, {**base, **versionDict})
 
 
-def write_json(name: str, minName: str, docs: Dict[Any, Dict[str, Any]]):
+def write_json(name: str, minName: str, docs: Dict[Any, Dict[str, Any]], skipSort: bool = False):
 	items = []
 	for (id, doc) in docs.items():
 		named = {k: v for (k, v) in doc.items() if not k.startswith("__")}
@@ -59,7 +60,8 @@ def write_json(name: str, minName: str, docs: Dict[Any, Dict[str, Any]]):
 			del nameless["name"]
 		if nameless != {}:
 			items.append((id, named, nameless))
-	items.sort(key=lambda k: int(k[0]))
+	if not skipSort:
+		items.sort(key=lambda k: int(k[0]))
 
 	withNames = collections.OrderedDict([(k, v) for (k, v, _) in items])
 	with open(name, "w+") as fi:
@@ -116,3 +118,15 @@ def copy(name: Union[str, Tuple[str, str]],
 
 def has_template(name: str, code) -> bool:
 	return len(code.filter_templates(matches=lambda t: t.name.matches(name))) != 0
+
+def strip(input: str) -> str:
+	stripped = input.strip()
+
+	matcher = LINK_PATTERN.search(stripped)
+	if matcher is None:
+		return stripped
+	stripped = matcher.group(2)
+	stripped = stripped.replace("[[", "")
+	stripped = stripped.replace("]]", "")
+	
+	return stripped
