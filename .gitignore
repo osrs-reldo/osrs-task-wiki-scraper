@@ -5,5 +5,5 @@ stats.json
 .mypy_cache
 npcs.json
 npcs.min.json
-combat_tasks*.json
+*_tasks*.json
 __pycache__

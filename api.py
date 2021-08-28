@@ -22,6 +22,30 @@ def get_wiki_api(args: Dict[str, str], continueKey: str) -> Iterator[Any]:
 		else:
 			return
 
+def query_page(page_name: str) -> Dict[str, str]:
+	for res in get_wiki_api(
+		{
+		"action": "query",
+		"prop": "pageprops",
+		"titles": page_name
+		}, "ppcontinue"):
+		for id, page in res["query"]["pages"].items():
+			pageid = page["pageid"]
+			if pageid is not None:
+				break
+		if pageid is not None:
+			break
+
+	for res in get_wiki_api(
+		{
+		"action": "query",
+		"prop": "revisions",
+		"rvprop": "content",
+		"pageids": pageid,
+		}, "rvcontinue"):
+		for id, page in res["query"]["pages"].items():
+			return page["revisions"][0]["*"]
+
 
 def query_category(category_name: str) -> Dict[str, str]:
 	"""

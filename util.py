@@ -8,6 +8,22 @@ VERSION_EXTRACTOR = re.compile(r"(.*?)([0-9]+)?$")
 LINK_PATTERN = re.compile(r"\[\[(.+\|)?(.+)\]\]")
 
 
+def each_row(rowName: str, code):
+	rows = code.filter_templates(matches=lambda t: t.name.matches(rowName))
+	if len(rows) < 1:
+		return
+
+	for row in rows:
+		result = {}
+		for param in row.params:
+			key = str(param.name)
+			value = str(param.value)
+			result[key] = value
+
+		yield result
+
+
+
 def each_version(template_name: str, code, include_base: bool = False,
 	mergable_keys: List[str] = None) -> Iterator[Tuple[int, Dict[str, Any]]]:
 	"""
@@ -126,12 +142,13 @@ def has_template(name: str, code) -> bool:
 
 def strip(input: str) -> str:
 	stripped = input.strip()
+	stripped = stripped.replace("[[", "")
+	stripped = stripped.replace("]]", "")
+	stripped = stripped.replace("==", "")
 
 	matcher = LINK_PATTERN.search(stripped)
 	if matcher is None:
 		return stripped
 	stripped = matcher.group(2)
-	stripped = stripped.replace("[[", "")
-	stripped = stripped.replace("]]", "")
 	
 	return stripped
