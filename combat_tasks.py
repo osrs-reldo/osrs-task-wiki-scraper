@@ -22,7 +22,7 @@ def run():
 					"name": util.strip(str(version["name"])),
 					"description": util.strip(str(version["task"])),
 					"area": util.strip(str(version["area"])),
-					"tier": util.strip(str(version["tier"])),
+					"tier": util.strip(str(version["tier"].get(1).text)),
 				}
 				tasks.append(task)
 
