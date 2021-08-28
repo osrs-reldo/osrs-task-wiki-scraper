@@ -144,6 +144,7 @@ def strip(input: str) -> str:
 	stripped = input.strip()
 	stripped = stripped.replace("[[", "")
 	stripped = stripped.replace("]]", "")
+	stripped = stripped.replace("===", "")
 	stripped = stripped.replace("==", "")
 
 	matcher = LINK_PATTERN.search(stripped)

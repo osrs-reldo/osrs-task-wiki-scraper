@@ -3,7 +3,7 @@ import util
 
 def convert_league_row_to_task(row, sectionName: str):
 	skills = []
-	if row["s"] is not None:
+	if 's' in row and row["s"] is not None:
 		skillCode = mw.parse(row["s"], skip_style_tags=True)
 		for skillPart in skillCode.filter_templates(matches=lambda t: t.name.matches("SCP")):
 			skills.append({
