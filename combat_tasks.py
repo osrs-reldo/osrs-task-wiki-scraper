@@ -7,7 +7,7 @@ from typing import *
 
 
 def run():
-	tasks = {}
+	tasks = []
 
 	achievement_pages = api.query_category("Combat_Achievements")
 	for name, page in achievement_pages.items():
@@ -18,12 +18,13 @@ def run():
 			code = mw.parse(page, skip_style_tags=True)
 
 			for (vid, version) in util.each_version("Infobox Task", code):
-				tasks[name] = {
+				task = {
 					"name": util.strip(str(version["name"])),
 					"description": util.strip(str(version["task"])),
 					"area": util.strip(str(version["area"])),
 					"tier": util.strip(str(version["tier"])),
 				}
+				tasks.append(task)
 
 		except (KeyboardInterrupt, SystemExit):
 			raise
@@ -32,4 +33,4 @@ def run():
 			traceback.print_exc()
 
 	skipSort = True
-	util.write_json("combat_tasks.json", "combat_tasks.min.json", tasks, skipSort)
+	util.write_list_json("combat_tasks.json", "combat_tasks.min.json", tasks, skipSort)

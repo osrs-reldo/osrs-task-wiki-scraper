@@ -51,7 +51,7 @@ def each_version(template_name: str, code, include_base: bool = False,
 					yield (versionID, {**base, **versionDict})
 
 
-def write_json(name: str, minName: str, docs: Dict[Any, Dict[str, Any]], skipSort: bool = False):
+def write_json(name: str, minName: str, docs: Dict[Any, Dict[str, Any]]):
 	items = []
 	for (id, doc) in docs.items():
 		named = {k: v for (k, v) in doc.items() if not k.startswith("__")}
@@ -60,8 +60,6 @@ def write_json(name: str, minName: str, docs: Dict[Any, Dict[str, Any]], skipSor
 			del nameless["name"]
 		if nameless != {}:
 			items.append((id, named, nameless))
-	if not skipSort:
-		items.sort(key=lambda k: int(k[0]))
 
 	withNames = collections.OrderedDict([(k, v) for (k, v, _) in items])
 	with open(name, "w+") as fi:
@@ -70,6 +68,13 @@ def write_json(name: str, minName: str, docs: Dict[Any, Dict[str, Any]], skipSor
 	withoutNames = collections.OrderedDict([(k, v) for (k, _, v) in items])
 	with open(minName, "w+") as fi:
 		json.dump(withoutNames, fi, separators=(",", ":"))
+
+def write_list_json(name: str, minName: str, docs: List[Dict[str, Any]], skipSort: bool = False):
+	with open(name, "w+") as fi:
+		json.dump(docs, fi, indent=2)
+
+	with open(minName, "w+") as fi:
+		json.dump(docs, fi, separators=(",", ":"))
 
 
 def get_doc_for_id_string(source: str, version: Dict[str, str], docs: Dict[str, Dict],
