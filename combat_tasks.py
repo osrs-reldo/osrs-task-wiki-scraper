@@ -3,34 +3,44 @@ import re
 import mwparserfromhell as mw
 import api
 import util
+import league_utils
 from typing import *
 
 
 def run():
+	tiers = ["Easy", "Medium", "Hard", "Elite", "Master", "Grandmaster"]
 	tasks = []
 
-	achievement_pages = api.query_category("Combat_Achievements")
-	for name, page in achievement_pages.items():
-		if name.startswith("Category:") or name.startswith("Combat Achievements"):
-			continue
+	for tier in tiers:
+		page = api.query_page("Combat_Achievements/" + tier)
 
 		try:
 			code = mw.parse(page, skip_style_tags=True)
+			for section in code.get_sections():
+				sectionName = section.get(0).title
+				if sectionName != "Tasks":
+					continue
 
-			for (vid, version) in util.each_version("Infobox Task", code):
-				task = {
-					"name": util.strip(str(version["name"])),
-					"description": util.strip(str(version["task"])),
-					"area": util.strip(str(version["area"])),
-					"tier": util.strip(str(version["tier"].get(1).text)),
-				}
-				tasks.append(task)
+				for row in util.each_row("CATaskRow", section):
+					task = convert_combat_task_row_to_task(row, tier)
+					tasks.append(task)
 
 		except (KeyboardInterrupt, SystemExit):
 			raise
 		except:
-			print("Task {} failed:".format(name))
+			print("Task {} failed:".format(tier))
 			traceback.print_exc()
 
 	skipSort = True
 	util.write_list_json("combat_tasks.json", "combat_tasks.min.json", tasks, skipSort)
+
+def convert_combat_task_row_to_task(row, sectionName: str):
+	task = {
+		"monster": util.strip(str(row['1'])),
+		"name": util.strip(str(row['2'])),
+		"description": util.strip(str(row['3'])),
+		"category": util.strip(str(row["4"])),
+		"tier": util.strip(sectionName)
+	}
+
+	return task
