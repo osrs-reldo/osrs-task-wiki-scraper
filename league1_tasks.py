@@ -1,5 +1,4 @@
 import traceback
-import re
 import mwparserfromhell as mw
 import api
 import util

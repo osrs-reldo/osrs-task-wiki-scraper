@@ -4,7 +4,7 @@ import urllib.request
 import urllib.parse
 from typing import *
 
-use_cache: bool = True
+use_cache: bool = False
 user_agent: Dict[str, str] = {"User-Agent": "Runelite Task Scraper/1.0"}
 
 
