@@ -30,7 +30,7 @@ def run():
 			traceback.print_exc()
 
 	skipSort = True
-	util.write_list_json("combat_tasks.json", "combat_tasks.min.json", tasks, skipSort)
+	util.write_list_json("out/combat_tasks.json", "out/combat_tasks.min.json", tasks, skipSort)
 
 def convert_combat_task_row_to_task(row, sectionName: str):
 	task = {
