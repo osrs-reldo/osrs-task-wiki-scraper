@@ -31,4 +31,4 @@ def run():
 			traceback.print_exc()
 
 	skipSort = True
-	util.write_list_json("out/league2_tasks.json", "out/league2_tasks.min.json", tasks, skipSort)
+	util.write_list_json("out/league2_tasks.json", "out/min/league2_tasks.min.json", tasks, skipSort)
