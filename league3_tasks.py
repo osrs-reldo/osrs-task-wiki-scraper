@@ -11,7 +11,6 @@ def run():
 
 	achievement_pages = api.query_category("Shattered_Relics_League")
 	for name, page in achievement_pages.items():
-		print(name)
 		if not name.startswith("Shattered Relics League/Tasks/"):
 			continue
 

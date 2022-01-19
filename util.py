@@ -6,8 +6,6 @@ import mwparserfromhell as mw
 from typing import *
 
 VERSION_EXTRACTOR = re.compile(r"(.*?)([0-9]+)?$")
-LINK_PATTERN = re.compile(r"\[\[(.+\|)?(.+)\]\]")
-
 
 def each_row(rowName: str, code):
 	rows = code.filter_templates(matches=lambda t: t.name.matches(rowName))
@@ -149,16 +147,43 @@ def has_template(name: str, code) -> bool:
 
 def strip(input: str) -> str:
 	stripped = input.strip()
-	stripped = stripped.replace("[[", "")
-	stripped = stripped.replace("]]", "")
 	stripped = stripped.replace("===", "")
 	stripped = stripped.replace("==", "")
-	stripped = stripped.replace("{{:", "")
-	stripped = stripped.replace("}}", "")
+	stripped = stripped.replace("{{sic}}", "")
 
-	matcher = LINK_PATTERN.search(stripped)
-	if matcher is None:
-		return stripped
-	stripped = matcher.group(2)
+	stripped = parse_scps(stripped)
+	stripped = parse_named_links(stripped)
+	stripped = parse_links(stripped)
+	stripped = parse_twitter_links(stripped)
 	
 	return stripped
+
+def parse_links(input: str) -> str:
+	ONLY_LINK_PATTERN = re.compile(r"[\[\{][\[\{]([^\]}\|]+?)[\]\}][\]\}]")
+	matcher = ONLY_LINK_PATTERN.search(input)
+	if matcher is None:
+		return input
+	return ONLY_LINK_PATTERN.sub("\\1", input)
+
+def parse_named_links(input: str) -> str:
+	NAMED_LINK_PATTERN = re.compile(r"[\[\{][\[\{]([^\]}\|]+?)\|([^\]}\|]+?)[\]\}][\]\}]")
+	matcher = NAMED_LINK_PATTERN.search(input)
+	if matcher is None:
+		return input
+	return NAMED_LINK_PATTERN.sub("\\2", input)
+
+
+def parse_scps(input: str) -> str:
+	SCP_PATTERN = re.compile(r"{{SCP\|(.+?)}}")
+	matcher = SCP_PATTERN.search(input)
+	if matcher is None:
+		return input
+	scp_content = matcher.group(1)
+	scp_elements = scp_content.split("|")
+	if (len(scp_elements) == 1):
+		return scp_elements[0]
+	return SCP_PATTERN.sub(scp_elements[0] + " " + scp_elements[1], input)
+
+def parse_twitter_links(input: str) -> str:
+	TWITTER_PATTERN = re.compile(r"[{\[][{\[]CiteTwitter.+?[}\]][}\]]")
+	return TWITTER_PATTERN.sub("", input)

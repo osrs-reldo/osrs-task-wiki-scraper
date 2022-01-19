@@ -10,11 +10,12 @@ def convert_league_row_to_task(row, sectionName: str):
 				"skill": util.strip(str(skillPart.params[0])),
 				"level": util.strip(str(skillPart.params[1]))
 			})
+	other = util.strip(str(row["other"])) if "other" in row else ""
 	task = {
 		"name": util.strip(str(row['1'])),
 		"description": util.strip(str(row['2'])),
 		"skills": skills,
-		"other": util.strip(str(row["other"])) if "other" in row else "",
+		"other": other,
 		"tier": util.strip(sectionName)
 	}
 
