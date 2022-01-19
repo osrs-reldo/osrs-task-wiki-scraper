@@ -1,3 +1,4 @@
+import os
 import json
 import collections
 import re
@@ -92,6 +93,12 @@ def write_list_json(name: str, minName: str, docs: List[Dict[str, Any]], skipSor
 	with open(minName, "w+") as fi:
 		json.dump(docs, fi, separators=(",", ":"))
 
+def create_dir_if_not_exists(path):
+	exists = os.path.exists(path)
+
+	if not exists:
+		# Create a new directory because it does not exist 
+		os.makedirs(path)
 
 def get_doc_for_id_string(source: str, version: Dict[str, str], docs: Dict[str, Dict],
 	allow_duplicates: bool = False) -> Optional[Dict]:
@@ -146,6 +153,8 @@ def strip(input: str) -> str:
 	stripped = stripped.replace("]]", "")
 	stripped = stripped.replace("===", "")
 	stripped = stripped.replace("==", "")
+	stripped = stripped.replace("{{:", "")
+	stripped = stripped.replace("}}", "")
 
 	matcher = LINK_PATTERN.search(stripped)
 	if matcher is None:
