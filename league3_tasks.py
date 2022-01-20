@@ -23,6 +23,7 @@ def run():
 				for row in util.each_row("SRLTaskRow", section):
 					task = league_utils.convert_league_row_to_task(row, sectionName)
 					task["category"] = category
+					task["id"] = int(row["id"]) if "id" in row and row["id"] != "" else -1
 					tasks.append(task)
 
 		except (KeyboardInterrupt, SystemExit):
