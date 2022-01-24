@@ -1,12 +1,15 @@
 import os
 import json
+from datetime import datetime
 import urllib.request
 import urllib.parse
 from typing import *
 
-use_cache: bool = False
+use_cache: bool = True
 user_agent: Dict[str, str] = {"User-Agent": "Runelite Task Scraper/1.0"}
 
+def prep_cache_name(name):
+	return name.replace("/", ".") + datetime.now().strftime("%Y%m%d")
 
 def get_wiki_api(args: Dict[str, str], continueKey: str) -> Iterator[Any]:
 	args["format"] = "json"
@@ -23,6 +26,12 @@ def get_wiki_api(args: Dict[str, str], continueKey: str) -> Iterator[Any]:
 			return
 
 def query_page(page_name: str) -> Dict[str, str]:
+	cache_file_name = prep_cache_name(page_name) + ".cache.json"
+	if use_cache and os.path.isfile(cache_file_name):
+		with open(cache_file_name, "r") as fi:
+			print("opening %s from cache" % page_name)
+			return json.load(fi)
+
 	for res in get_wiki_api(
 		{
 		"action": "query",
@@ -44,6 +53,8 @@ def query_page(page_name: str) -> Dict[str, str]:
 		"pageids": pageid,
 		}, "rvcontinue"):
 		for id, page in res["query"]["pages"].items():
+			with open(cache_file_name, "w+") as fi:
+				json.dump(page["revisions"][0]["*"], fi)
 			return page["revisions"][0]["*"]
 
 
@@ -53,7 +64,7 @@ def query_category(category_name: str) -> Dict[str, str]:
 	you can then use mwparserfromhell to parse the wikitext into
 	an ast
 	"""
-	cache_file_name = category_name + ".cache.json"
+	cache_file_name = prep_cache_name(category_name) + ".cache.json"
 	if use_cache and os.path.isfile(cache_file_name):
 		with open(cache_file_name, "r") as fi:
 			return json.load(fi)
