@@ -107,6 +107,7 @@ def run():
 			continue
 		wiki_task = wiki_tasks[id]
 		combined_task = task_data[id]
+		combined_task["name"] = combined_task["name"].replace("\xa0", " ")
 		combined_task["skills"] = wiki_task["skills"]
 		combined_task["other"] = wiki_task["other"]
 		combined_task["tier"] = get_tier_from_icon(combined_task["tier_icon"])
