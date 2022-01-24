@@ -50,15 +50,15 @@ def scrape_wiki():
 			sectionName = "" # tier was stripped out into a part we can't associate; fine because game is source now
 			for row in util.each_row("SRLTaskRow", code):
 				task = {}
-				varbid = -1
+				client_id = -1
 				if "id" in row and row["id"] != "":
-					varbid = int(row["id"])
+					client_id = int(row["id"])
 				else:
-					varbid = task_not_found_id
+					client_id = task_not_found_id
 					task_not_found_id += 1
 				task.update(league_utils.convert_league_row_to_task(row, sectionName))
 				task["category"] = category
-				tasks[varbid] = task
+				tasks[client_id] = task
 
 		except (KeyboardInterrupt, SystemExit):
 			raise
@@ -77,8 +77,8 @@ def parse_client_data():
 	csv.register_dialect("piper", delimiter="|", quoting=csv.QUOTE_NONE)
 	with open("client-data/league3_data.txt", "rt", encoding="utf8") as csvfile:
 		for task in csv.DictReader(csvfile, dialect="piper"):
-			varbid = int(task["varbid"])
-			tasks[varbid] = task
+			client_id = int(task["client_id"])
+			tasks[client_id] = task
 	return tasks
 
 def run():
@@ -86,12 +86,12 @@ def run():
 	wiki_tasks = scrape_wiki()
 
 	combined_tasks = []
-	for varbid in task_data:
-		if varbid not in wiki_tasks:
-			print("Wiki task id not found when joining data with wiki: id=%s varbid=%s" %(task_data[varbid], varbid))
+	for client_id in task_data:
+		if client_id not in wiki_tasks:
+			print("Wiki task id not found when joining data with wiki: id=%s client_id=%s" %(task_data[client_id], client_id))
 			continue
-		wiki_task = wiki_tasks[varbid]
-		combined_task = task_data[varbid]
+		wiki_task = wiki_tasks[client_id]
+		combined_task = task_data[client_id]
 		combined_task["skills"] = wiki_task["skills"]
 		combined_task["other"] = wiki_task["other"]
 		combined_tasks.append(combined_task)

@@ -1,4 +1,4 @@
-id|varbid|name|description|area|type
+id|client_id|name|description|area|type
 0|495|Open the Leagues Menu|Open the Leagues Menu found within the Journal Panel.|Global|Other
 1|496|Complete the Leagues Tutorial|Complete the Leagues Tutorial and begin your adventure.|Global|Other
 2|497|Achieve Your First Level Up|Level up any of your skills for the first time.|Global|Skill
