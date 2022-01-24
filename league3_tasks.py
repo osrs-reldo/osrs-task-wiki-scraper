@@ -50,15 +50,15 @@ def scrape_wiki():
 			sectionName = "" # tier was stripped out into a part we can't associate; fine because game is source now
 			for row in util.each_row("SRLTaskRow", code):
 				task = {}
-				client_id = -1
+				id = -1
 				if "id" in row and row["id"] != "":
-					client_id = int(row["id"])
+					id = int(row["id"])
 				else:
-					client_id = task_not_found_id
+					id = task_not_found_id
 					task_not_found_id += 1
 				task.update(league_utils.convert_league_row_to_task(row, sectionName))
 				task["category"] = category
-				tasks[client_id] = task
+				tasks[id] = task
 
 		except (KeyboardInterrupt, SystemExit):
 			raise
@@ -77,23 +77,39 @@ def parse_client_data():
 	csv.register_dialect("piper", delimiter="|", quoting=csv.QUOTE_NONE)
 	with open("client-data/league3_data.txt", "rt", encoding="utf8") as csvfile:
 		for task in csv.DictReader(csvfile, dialect="piper"):
-			client_id = int(task["client_id"])
-			tasks[client_id] = task
+			id = int(task["id"])
+			tasks[id] = task
 	return tasks
+
+def get_tier_from_icon(icon):
+	icon = int(icon)
+	if icon == 2316:
+		return "Beginner"
+	if icon == 2317:
+		return "Easy"
+	if icon == 2318:
+		return "Medium"
+	if icon == 2319:
+		return "Hard"
+	if icon == 2320:
+		return "Elite"
+	if icon == 3739:
+		return "Master"
 
 def run():
 	task_data = parse_client_data()
 	wiki_tasks = scrape_wiki()
 
 	combined_tasks = []
-	for client_id in task_data:
-		if client_id not in wiki_tasks:
-			print("Wiki task id not found when joining data with wiki: id=%s client_id=%s" %(task_data[client_id], client_id))
+	for id in task_data:
+		if id not in wiki_tasks:
+			print("Wiki task id not found when joining data with wiki: id=%s" % id)
 			continue
-		wiki_task = wiki_tasks[client_id]
-		combined_task = task_data[client_id]
+		wiki_task = wiki_tasks[id]
+		combined_task = task_data[id]
 		combined_task["skills"] = wiki_task["skills"]
 		combined_task["other"] = wiki_task["other"]
+		combined_task["tier"] = get_tier_from_icon(combined_task["tier_icon"])
 		combined_tasks.append(combined_task)
 
 	skipSort = True
