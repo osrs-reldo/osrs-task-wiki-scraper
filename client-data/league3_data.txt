@@ -571,26 +571,26 @@ id|name|description|area|type|tier_icon
 237|100 Wintertodt Kills|Help the pyromancers subdue the Wintertodt 100 times.|Kourend & Kebos|Skill|2319
 1492|150 Wintertodt Kills|Help the pyromancers subdue the Wintertodt 150 times.|Kourend & Kebos|Skill|2319
 238|200 Wintertodt Kills|Help the pyromancers subdue the Wintertodt 200 times.|Kourend & Kebos|Skill|2319
-1493|250 Wintertodt Kills|Help the pyromancers subdue the Wintertodt 250 times.|Kourend & Kebos|Skill|2319
-250|Complete 200 Farming Contracts|Complete 200 Farming Contracts for Guildmaster Jane in the Farming Guild.|Kourend & Kebos|Skill|2319
-251|Complete 300 Farming Contracts|Complete 300 Farming Contracts for Guildmaster Jane in the Farming Guild.|Kourend & Kebos|Skill|2319
-252|Complete 400 Farming Contracts|Complete 400 Farming Contracts for Guildmaster Jane in the Farming Guild.|Kourend & Kebos|Skill|2319
-253|Complete 500 Farming Contracts|Complete 500 Farming Contracts for Guildmaster Jane in the Farming Guild.|Kourend & Kebos|Skill|2319
+1493|225 Wintertodt Kills|Help the pyromancers subdue the Wintertodt 225 times.|Kourend & Kebos|Skill|2319
+250|Complete 110 Farming Contracts|Complete 110 Farming Contracts for Guildmaster Jane in the Farming Guild.|Kourend & Kebos|Skill|2319
+251|Complete 120 Farming Contracts|Complete 120 Farming Contracts for Guildmaster Jane in the Farming Guild.|Kourend & Kebos|Skill|2319
+252|Complete 130 Farming Contracts|Complete 130 Farming Contracts for Guildmaster Jane in the Farming Guild.|Kourend & Kebos|Skill|2319
+253|Complete 150 Farming Contracts|Complete 150 Farming Contracts for Guildmaster Jane in the Farming Guild.|Kourend & Kebos|Skill|2319
 273|Plant 100 Bologano Seeds|Plant 100 Bologano seeds in the Tithe Farm minigame.|Kourend & Kebos|Skill|2319
 276|Enter the Farming Guild's Mid Tier|Enter the mid tier of the Farming Guild in the Kebos Lowlands.|Kourend & Kebos|Skill|2319
 279|Serve 20 Pizzas in the Mess Hall|Make and serve 20 Pineapple pizzas in the Mess Hall in Hosidius, whilst having at least 30% appreciation.|Kourend & Kebos|Skill|2319
 283|Obtain Adamantite Ore at the Blast Mine|Obtain a piece of Adamantite ore while taking part in the Blast Mine.|Kourend & Kebos|Skill|2319
 285|Chop a Magic Log at the Forsaken Tower|Chop a log from the Magic trees around the Forsaken Tower.|Kourend & Kebos|Skill|2319
 286|Cast Resurrect Crops|Cast the spell Resurrect Crops from the Arceuus spellbook.|Kourend & Kebos|Skill|2319
-325|2500 Lizardmen Shaman Kills|Help the Shayzien House by killing 2500 Lizardmen shamans.|Kourend & Kebos|Combat|2319
-326|5000 Lizardmen Shaman Kills|Help the Shayzien House by killing 5000 Lizardmen shamans.|Kourend & Kebos|Combat|2319
+325|1250 Lizardmen Shaman Kills|Help the Shayzien House by killing 1250 Lizardmen shamans.|Kourend & Kebos|Combat|2319
+326|1500 Lizardmen Shaman Kills|Help the Shayzien House by killing 1500 Lizardmen shamans.|Kourend & Kebos|Combat|2319
 328|1 Sarachnis Kill|Kill Sarachnis in the Forthos Dungeon.|Kourend & Kebos|Combat|2319
 329|25 Sarachnis Kills|Kill Sarachnis in the Forthos Dungeon 25 times.|Kourend & Kebos|Combat|2319
 330|50 Sarachnis Kills|Kill Sarachnis in the Forthos Dungeon 50 times.|Kourend & Kebos|Combat|2319
 331|75 Sarachnis Kills|Kill Sarachnis in the Forthos Dungeon 75 times.|Kourend & Kebos|Combat|2319
 332|100 Sarachnis Kills|Kill Sarachnis in the Forthos Dungeon 100 times.|Kourend & Kebos|Combat|2319
-333|250 Sarachnis Kills|Kill Sarachnis in the Forthos Dungeon 250 times.|Kourend & Kebos|Combat|2319
-334|500 Sarachnis Kills|Kill Sarachnis in the Forthos Dungeon 500 times.|Kourend & Kebos|Combat|2319
+333|150 Sarachnis Kills|Kill Sarachnis in the Forthos Dungeon 150 times.|Kourend & Kebos|Combat|2319
+334|200 Sarachnis Kills|Kill Sarachnis in the Forthos Dungeon 200 times.|Kourend & Kebos|Combat|2319
 339|1 Skotizo Kill|Kill Skotizo beneath the Catacombs of Kourend.|Kourend & Kebos|Combat|2319
 340|10 Skotizo Kills|Kill Skotizo beneath the Catacombs of Kourend 10 times.|Kourend & Kebos|Combat|2319
 359|1 Chambers of Xeric|Complete the Chambers of Xeric.|Kourend & Kebos|Minigame|2319
@@ -608,7 +608,7 @@ id|name|description|area|type|tier_icon
 386|Equip a Mist Battlestaff|Obtain and equip a Mist battlestaff.|Global|Other|2319
 412|Kourend and Kebos Hard Diary Tasks|Complete all tasks in the hard tier of the Kourend and Kebos achievement diary.|Kourend & Kebos|Achievement|2319
 418|Open 100 Grubby Chests|Open the grubby chest in the Forthos Dungeon 100 times.|Kourend & Kebos|Other|2319
-426|Steal 250 Artefacts|Steal 250 artefacts for Captain Khaled in Piscarilius.|Kourend & Kebos|Skill|2319
+426|Steal 125 Artefacts|Steal 125 artefacts for Captain Khaled in Piscarilius.|Kourend & Kebos|Skill|2319
 434|Turn in 500 Library Books|Find and turn in 500 books in the Arceuus Library.|Kourend & Kebos|Other|2319
 470|1 Mimic Kill|Kill the Mimic as part of a Treasure Trail.|Global|Combat|2319
 471|5 Mimic Kills|Kill the Mimic as part of a Treasure Trail 5 times.|Global|Combat|2319
@@ -936,24 +936,24 @@ id|name|description|area|type|tier_icon
 277|Enter the Farming Guild's High Tier|Enter the high tier of the Farming Guild in the Kebos Lowlands.|Kourend & Kebos|Skill|2320
 284|Obtain Runite Ore at the Blast Mine|Obtain a piece of Runite ore while taking part in the Blast Mine.|Kourend & Kebos|Skill|2320
 288|Check a grown Redwood Tree|Check the health of a Redwood Tree after growing one in the Farming Guild.|Kourend & Kebos|Skill|2320
-241|500 Wintertodt Kills|Help the pyromancers subdue the Wintertodt 500 times.|Kourend & Kebos|Skill|2320
-1494|750 Wintertodt Kills|Help the pyromancers subdue the Wintertodt 750 times.|Kourend & Kebos|Skill|2320
-242|1,000 Wintertodt Kills|Help the pyromancers subdue the Wintertodt 1,000 times.|Kourend & Kebos|Skill|2320
+241|250 Wintertodt Kills|Help the pyromancers subdue the Wintertodt 250 times.|Kourend & Kebos|Skill|2320
+1494|300 Wintertodt Kills|Help the pyromancers subdue the Wintertodt 300 times.|Kourend & Kebos|Skill|2320
+242|350 Wintertodt Kills|Help the pyromancers subdue the Wintertodt 350 times.|Kourend & Kebos|Skill|2320
 341|25 Skotizo Kills|Kill Skotizo beneath the Catacombs of Kourend 25 times.|Kourend & Kebos|Combat|2320
 342|50 Skotizo Kills|Kill Skotizo beneath the Catacombs of Kourend 50 times.|Kourend & Kebos|Combat|2320
-343|75 Skotizo Kills|Kill Skotizo beneath the Catacombs of Kourend 75 times.|Kourend & Kebos|Combat|2320
-344|100 Skotizo Kills|Kill Skotizo beneath the Catacombs of Kourend 100 times.|Kourend & Kebos|Combat|2320
-345|150 Skotizo Kills|Kill Skotizo beneath the Catacombs of Kourend 150 times.|Kourend & Kebos|Combat|2320
-346|200 Skotizo Kills|Kill Skotizo beneath the Catacombs of Kourend 200 times.|Kourend & Kebos|Combat|2320
-347|250 Skotizo Kills|Kill Skotizo beneath the Catacombs of Kourend 250 times.|Kourend & Kebos|Combat|2320
+343|60 Skotizo Kills|Kill Skotizo beneath the Catacombs of Kourend 60 times.|Kourend & Kebos|Combat|2320
+344|80 Skotizo Kills|Kill Skotizo beneath the Catacombs of Kourend 80 times.|Kourend & Kebos|Combat|2320
+345|100 Skotizo Kills|Kill Skotizo beneath the Catacombs of Kourend 100 times.|Kourend & Kebos|Combat|2320
+346|125 Skotizo Kills|Kill Skotizo beneath the Catacombs of Kourend 125 times.|Kourend & Kebos|Combat|2320
+347|150 Skotizo Kills|Kill Skotizo beneath the Catacombs of Kourend 150 times.|Kourend & Kebos|Combat|2320
 348|1 Alchemical Hydra Kill|Kill the Alchemical Hydra in Mount Karuulm.|Kourend & Kebos|Combat|2320
 349|25 Alchemical Hydra Kills|Kill the Alchemical Hydra in Mount Karuulm 25 times.|Kourend & Kebos|Combat|2320
 350|50 Alchemical Hydra Kills|Kill the Alchemical Hydra in Mount Karuulm 50 times.|Kourend & Kebos|Combat|2320
 351|75 Alchemical Hydra Kills|Kill the Alchemical Hydra in Mount Karuulm 75 times.|Kourend & Kebos|Combat|2320
 352|100 Alchemical Hydra Kills|Kill the Alchemical Hydra in Mount Karuulm 100 times.|Kourend & Kebos|Combat|2320
 353|250 Alchemical Hydra Kills|Kill the Alchemical Hydra in Mount Karuulm 250 times.|Kourend & Kebos|Combat|2320
-354|500 Alchemical Hydra Kills|Kill the Alchemical Hydra in Mount Karuulm 500 times.|Kourend & Kebos|Combat|2320
-1401|750 Alchemical Hydra Kills|Kill the Alchemical Hydra in Mount Karuulm 750 times.|Kourend & Kebos|Combat|2320
+354|300 Alchemical Hydra Kills|Kill the Alchemical Hydra in Mount Karuulm 300 times.|Kourend & Kebos|Combat|2320
+1401|500 Alchemical Hydra Kills|Kill the Alchemical Hydra in Mount Karuulm 500 times.|Kourend & Kebos|Combat|2320
 364|250 Chambers of Xeric|Complete the Chambers of Xeric 250 times.|Kourend & Kebos|Minigame|2320
 370|25 Chambers of Xeric Challenge Mode|Complete the Chambers of Xeric Challenge Mode 25 times.|Kourend & Kebos|Minigame|2320
 371|50 Chambers of Xeric Challenge Mode|Complete the Chambers of Xeric Challenge Mode 50 times.|Kourend & Kebos|Minigame|2320
@@ -965,11 +965,11 @@ id|name|description|area|type|tier_icon
 390|Equip a Dragon Hunter Lance|Obtain and equip a Dragon hunter lance.|Global|Other|2320
 391|Equip a Brimstone Ring|Obtain and equip a Brimstone ring.|Kourend & Kebos|Other|2320
 413|Kourend and Kebos Elite Diary Tasks|Complete all tasks in the elite tier of the Kourend and Kebos achievement diary.|Kourend & Kebos|Achievement|2320
-419|Open 250 Grubby Chests|Open the grubby chest in the Forthos Dungeon 250 times.|Kourend & Kebos|Other|2320
-420|Open 500 Grubby Chests|Open the grubby chest in the Forthos Dungeon 500 times.|Kourend & Kebos|Other|2320
-427|Steal 500 Artefacts|Steal 500 artefacts for Captain Khaled in Piscarilius.|Kourend & Kebos|Skill|2320
+419|Open 200 Grubby Chests|Open the grubby chest in the Forthos Dungeon 200 times.|Kourend & Kebos|Other|2320
+420|Open 250 Grubby Chests|Open the grubby chest in the Forthos Dungeon 250 times.|Kourend & Kebos|Other|2320
+427|Steal 150 Artefacts|Steal 150 artefacts for Captain Khaled in Piscarilius.|Kourend & Kebos|Skill|2320
 472|25 Mimic Kills|Kill the Mimic as part of a Treasure Trail 25 times.|Global|Combat|2320
-473|50 Mimic Kills|Kill the Mimic as part of a Treasure Trail 50 times.|Global|Combat|2320
+473|35 Mimic Kills|Kill the Mimic as part of a Treasure Trail 35 times.|Global|Combat|2320
 492|Equip a Fish Sack|Equip a Fish sack, purchased from Alry on Molch Island.|Kourend & Kebos|Other|2320
 578|Obtain a Skilling Pet|Obtain any Skilling Pet.|Global|Skill|2320
 594|Travel Between Your Spirit Trees|Travel between any two Spirit Trees that you've grown.|Global|Skill|2320
@@ -1064,8 +1064,8 @@ id|name|description|area|type|tier_icon
 1052|Defeat the Kraken Boss 500 Times|Defeat the Kraken boss in Kraken Cove 500 times.|Kandarin|Combat|2320
 1053|Defeat the Kraken Boss 750 Times|Defeat the Kraken boss in Kraken Cove 750 times.|Kandarin|Combat|2320
 1054|Defeat 300 Demonic Gorillas|Defeat 300 Demonic Gorillas in the Crash Site Cavern.|Kandarin|Combat|2320
-1055|Defeat 750 Demonic Gorillas|Defeat 750 Demonic Gorillas in the Crash Site Cavern.|Kandarin|Combat|2320
-1056|Defeat 1,500 Demonic Gorillas|Defeat 1,500 Demonic Gorillas in the Crash Site Cavern.|Kandarin|Combat|2320
+1055|Defeat 500 Demonic Gorillas|Defeat 500 Demonic Gorillas in the Crash Site Cavern.|Kandarin|Combat|2320
+1056|Defeat 750 Demonic Gorillas|Defeat 750 Demonic Gorillas in the Crash Site Cavern.|Kandarin|Combat|2320
 1063|Reach Level 5 in Every Barbarian Assault Role|Reach level 5 in all four Barbarian Assault Roles.|Kandarin|Minigame|2320
 1075|Equip a Dragon Archer Chompy Hat|Equip a Dragon Archer Chompy Hat.|Kandarin|Other|2320
 1080|Equip a Kruk Jr. Monkey Backpack|Equip a Kruk Jr. Monkey Backpack.|Kandarin|Skill|2320
@@ -1166,7 +1166,7 @@ id|name|description|area|type|tier_icon
 1394|Equip any Ancestral piece|Equip either an Ancestral Hat, an Ancestral robe top or an Ancestral robe bottom.|Kourend & Kebos|Other|2320
 1396|Equip a pair of Dragon Claws|Equip a pair of Dragon Claws.|Kourend & Kebos|Other|2320
 1397|Recolour a piece of the Ancestral Robes|Recolour a piece of the Ancestral robes using a Twisted ancestral colour kit.|Kourend & Kebos|Other|2320
-1399|750 Sarachnis Kills|Kill Sarachnis in the Forthos Dungeon 750 times.|Kourend & Kebos|Combat|2320
+1399|250 Sarachnis Kills|Kill Sarachnis in the Forthos Dungeon 250 times.|Kourend & Kebos|Combat|2320
 1400|Equip a Bonecrusher necklace|Equip a Bonecrusher necklace.|Global|Other|2320
 1414|Defeat The Nightmare 50 times|Defeat The Nightmare or Phosani's Nightmare 50 times combined.|Morytania|Combat|2320
 1415|Defeat The Nightmare 100 times|Defeat The Nightmare or Phosani's Nightmare 100 times combined.|Morytania|Combat|2320
@@ -1178,9 +1178,9 @@ id|name|description|area|type|tier_icon
 1421|Defeat the Theatre of Blood Hardmode 50 times|Defeat the Theatre of Blood Hardmode 50 times.|Morytania|Combat|2320
 1422|Defeat the Theatre of Blood Hardmode 100 times|Defeat the Theatre of Blood Hardmode 100 times.|Morytania|Combat|2320
 1423|Defeat the Theatre of Blood Hardmode 150 times|Defeat the Theatre of Blood Hardmode 150 times.|Morytania|Combat|2320
-1432|500 Tempoross Kills|Help the Spirit Anglers subdue the Tempoross 500 times.|Kharidian Desert|Skill|2320
-1433|750 Tempoross Kills|Help the Spirit Anglers subdue the Tempoross 750 times.|Kharidian Desert|Skill|2320
-1434|1,000 Tempoross Kills|Help the Spirit Anglers subdue the Tempoross 1,000 times.|Kharidian Desert|Skill|2320
+1432|275 Tempoross Kills|Help the Spirit Anglers subdue the Tempoross 275 times.|Kharidian Desert|Skill|2320
+1433|300 Tempoross Kills|Help the Spirit Anglers subdue the Tempoross 300 times.|Kharidian Desert|Skill|2320
+1434|350 Tempoross Kills|Help the Spirit Anglers subdue the Tempoross 350 times.|Kharidian Desert|Skill|2320
 1450|All Hard Combat Achievements|Complete all Hard Combat Achievements.|Global|Achievement|2320
 1455|50 Elite Combat Achievements|Complete 50 Elite Combat Achievements.|Global|Achievement|2320
 1456|75 Elite Combat Achievements|Complete 75 Elite Combat Achievements.|Global|Achievement|2320
@@ -1220,7 +1220,7 @@ id|name|description|area|type|tier_icon
 407|Receive All Chambers of Xeric Uniques|Receive all unique drops from completing the Chambers of Xeric.|Kourend & Kebos|Minigame|3739
 409|Metamorphise the Olmlet|Use metamorphic dust on an Olmlet pet, to metamorphise it.|Kourend & Kebos|Other|3739
 462|500 Elite Clue Scrolls|Open 500 Reward caskets for completing elite clue scrolls.|Global|Minigame|3739
-474|100 Mimic Kills|Kill the Mimic as part of a Treasure Trail 100 times.|Global|Combat|3739
+474|50 Mimic Kills|Kill the Mimic as part of a Treasure Trail 50 times.|Global|Combat|3739
 493|Equip a Golden Tench|Equip a Golden tench, caught by aerial fishing on Molch Island.|Kourend & Kebos|Other|3739
 779|Equip a Dragon Platebody or Dragon Kiteshield|Equip either a Dragon Platebody or a Dragon Kiteshield.|Misthalin|Combat|3739
 845|Equip a Corrupted Blade of Saeldor|Equip a Corrupted Blade of Saeldor.|Tirannwn|Combat|3739
