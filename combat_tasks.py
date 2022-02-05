@@ -45,7 +45,7 @@ def run():
 		tasks.append(task)
 
 	skipSort = True
-	util.write_list_json("out/combat_tasks.json", "out/combat_tasks.min.json", tasks, skipSort)
+	util.write_list_json("out/combat_tasks.json", "out/min/combat_tasks.min.json", tasks, skipSort)
 
 # Deprecated - relies solely on game data now, because there is no metadata in the wiki
 def scrape_wiki():
