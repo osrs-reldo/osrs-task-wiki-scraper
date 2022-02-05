@@ -105,12 +105,22 @@ def run():
 		if id not in wiki_tasks:
 			print("Wiki task id not found when joining data with wiki: id=%s" % id)
 			continue
+
+		combined_task = {}
+
+		task_datum = task_data[id]
+		combined_task["id"] = task_datum["id"]
+		combined_task["name"] = task_datum["name"].replace("\xa0", " ")
+		combined_task["description"] = task_datum["description"]
+		combined_task["area"] = task_datum["area"]
+		combined_task["type"] = task_datum["type"]
+		combined_task["tier"] = get_tier_from_icon(task_datum["tier_icon"])
+		combined_task["clientSortId"] = task_datum["client_sort_id"]
+
 		wiki_task = wiki_tasks[id]
-		combined_task = task_data[id]
-		combined_task["name"] = combined_task["name"].replace("\xa0", " ")
 		combined_task["skills"] = wiki_task["skills"]
 		combined_task["other"] = wiki_task["other"]
-		combined_task["tier"] = get_tier_from_icon(combined_task["tier_icon"])
+
 		combined_tasks.append(combined_task)
 
 	skipSort = True
