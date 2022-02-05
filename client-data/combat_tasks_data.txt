@@ -1,0 +1,411 @@
+id|name|description|monster|type|tier_icon
+0|Noxious Foe|Kill an Aberrant Spectre.|Aberrant Spectre|Kill Count|3399
+24|Barrows Novice|Open the Barrows chest 10 times.|Barrows|Kill Count|3399
+28|Defence? What Defence?|Kill any Barrows Brother using only magical damage.|Barrows|Restriction|3399
+32|Big, Black and Fiery|Kill a Black Dragon.|Black Dragon|Kill Count|3399
+33|The Demonic Punching Bag|Kill a Bloodveld.|Bloodveld|Kill Count|3399
+35|Bryophyta Novice|Kill Bryophyta once.|Bryophyta|Kill Count|3399
+37|Protection from Moss|Kill Bryophyta with the Protect from Magic prayer active.|Bryophyta|Mechanical|3399
+39|Preparation Is Key|Kill Bryophyta without suffering any poison damage.|Bryophyta|Perfection|3399
+40|A Slow Death|Kill Bryophyta with either poison or venom being the final source of damage.|Bryophyta|Restriction|3399
+41|Fighting as Intended II|Kill Bryophyta on a free to play world.|Bryophyta|Restriction|3399
+76|Deranged Archaeologist Novice|Kill the Deranged Archaeologist 10 times.|Deranged Archaeologist|Kill Count|3399
+80|The Walking Volcano|Kill a Fire Giant.|Fire Giant|Kill Count|3399
+398|Into the Den of Giants|Kill a Hill Giant, Moss Giant and Fire Giant in the Giant Cave within the Shayzien region.|None|Kill Count|3399
+120|A Greater Foe|Kill a Greater Demon.|Greater Demon|Kill Count|3399
+121|Not So Great After All|Finish off a Greater Demon with a demonbane weapon.|Greater Demon|Restriction|3399
+122|A Demon's Best Friend|Kill a Hellhound.|Hellhound|Kill Count|3399
+129|Obor Novice|Kill Obor once.|Obor|Kill Count|3399
+131|Sleeping Giant|Kill Obor whilst he is immobilized.|Obor|Mechanical|3399
+134|Fighting as Intended|Kill Obor on a free to play world.|Obor|Restriction|3399
+162|King Black Dragon Novice|Kill the King Black Dragon 10 times.|King Black Dragon|Kill Count|3399
+174|A Scaley Encounter|Kill a Lizardman Shaman.|Lizardman Shaman|Kill Count|3399
+175|Shayzien Protector|Kill a Lizardman Shaman in Molch which has not dealt damage to anyone (excluding it's Spawns).|Lizardman Shaman|Perfection|3399
+177|Giant Mole Novice|Kill the Giant Mole 10 times.|Giant Mole|Kill Count|3399
+206|Sarachnis Novice|Kill Sarachnis 10 times.|Sarachnis|Kill Count|3399
+279|Wintertodt Novice|Subdue the Wintertodt 10 times.|Wintertodt|Kill Count|3399
+281|Mummy!|Heal a pyromancer after they have fallen.|Wintertodt|Mechanical|3399
+282|Handyman|Repair a brazier which has been destroyed by the Wintertodt.|Wintertodt|Mechanical|3399
+285|Cosy|Subdue the Wintertodt with four pieces of warm equipment equipped.|Wintertodt|Restriction|3399
+287|A Slithery Encounter|Kill a Wyrm.|Wyrm|Kill Count|3399
+353|Tempoross Novice|Subdue Tempoross 10 times.|Tempoross|Kill Count|3399
+356|Master of Buckets|Extinguish at least 5 fires during a single Tempoross fight.|Tempoross|Mechanical|3399
+357|Calm Before the Storm|Repair either a mast or a totem pole.|Tempoross|Mechanical|3399
+360|Fire in the Hole!|Attack Tempoross from both sides by loading both cannons on both ships.|Tempoross|Mechanical|3399
+399|Sit Back and Relax|Deal 100 damage to creatures using undead thralls.|Other|Mechanical|3400
+25|Barrows Champion|Open the Barrows chest 50 times.|Barrows|Kill Count|3400
+26|Can't Touch Me|Kill Dharok, Verac, Torag and Guthan without letting them attack you with melee.|Barrows|Mechanical|3400
+27|Pray for Success|Kill all six Barrows Brothers and loot the Barrows chest without taking any damage from any of the brothers.|Barrows|Perfection|3400
+34|Brutal, Big, Black and Firey|Kill a Brutal Black Dragon.|Brutal Black Dragon|Kill Count|3400
+36|Bryophyta Champion|Kill Bryophyta 5 times.|Bryophyta|Kill Count|3400
+38|Quick Cutter|Kill all 3 of Bryophyta's growthlings within 3 seconds of the first one dying.|Bryophyta|Mechanical|3400
+46|Demonic Weakening|Kill Skotizo with no altars active.|Skotizo|Mechanical|3400
+48|Demonbane Weaponry|Kill Skotizo with a demonbane weapon equipped.|Skotizo|Restriction|3400
+61|Chaos Fanatic Champion|Kill the Chaos Fanatic 10 times.|Chaos Fanatic|Kill Count|3400
+63|Sorry, What Was That?|Kill the Chaos Fanatic without anyone being hit by his explosion attack.|Chaos Fanatic|Perfection|3400
+70|Crazy Archaeologist Champion|Kill the Crazy Archaeologist 10 times.|Crazy Archaeologist|Kill Count|3400
+72|Mage of the Ruins|Kill the Crazy Archaeologist with only magical attacks.|Crazy Archaeologist|Mechanical|3400
+73|I'd Rather Not Learn|Kill the Crazy Archaeologist without anyone being hit by his "Rain of Knowledge" attack.|Crazy Archaeologist|Perfection|3400
+77|Deranged Archaeologist Champion|Kill the Deranged Archaeologist 50 times.|Deranged Archaeologist|Kill Count|3400
+78|Mage of the Swamp|Kill the Deranged Archaeologist with only magical attacks.|Deranged Archaeologist|Mechanical|3400
+79|I'd Rather Be Illiterate|Kill the Deranged Archaeologist without anyone being hit by his "Learn to Read" attack.|Deranged Archaeologist|Perfection|3400
+97|A Smashing Time|Kill a Gargoyle.|Gargoyle|Kill Count|3400
+130|Obor Champion|Kill Obor 5 times.|Obor|Kill Count|3400
+132|Back to the Wall|Kill Obor without being pushed back more than one square by his knockback attack.|Obor|Mechanical|3400
+133|Squashing the Giant|Kill Obor without taking any damage off prayer.|Obor|Perfection|3400
+163|King Black Dragon Champion|Kill the King Black Dragon 50 times.|King Black Dragon|Kill Count|3400
+164|Claw Clipper|Kill the King Black Dragon with the Protect from Melee prayer activated.|King Black Dragon|Mechanical|3400
+165|Hide Penetration|Kill the King Black Dragon with a stab weapon.|King Black Dragon|Restriction|3400
+166|Antifire Protection|Kill the King Black Dragon with an antifire potion active and an antidragon shield equipped.|King Black Dragon|Restriction|3400
+173|Master of Broad Weaponry|Kill a Kurask.|Kurask|Kill Count|3400
+178|Giant Mole Champion|Kill the Giant mole 50 times.|Giant Mole|Kill Count|3400
+182|Avoiding Those Little Arms|Kill the Giant Mole without her damaging anyone.|Giant Mole|Perfection|3400
+197|Dagannoth Prime Champion|Kill Dagannoth Prime 50 times.|Dagannoth Prime|Kill Count|3400
+201|Dagannoth Rex Champion|Kill Dagannoth Rex 50 times.|Dagannoth Rex|Kill Count|3400
+204|A Frozen King|Kill Dagannoth Rex whilst he is immobilised.|Dagannoth Rex|Mechanical|3400
+207|Sarachnis Champion|Kill Sarachnis 50 times.|Sarachnis|Kill Count|3400
+210|Newspaper Enthusiast|Kill Sarachnis with a crush weapon.|Sarachnis|Restriction|3400
+223|A Frozen Foe from the Past|Kill a Skeletal Wyvern|Skeletal Wyvern|Kill Count|3400
+233|Dagannoth Supreme Champion|Kill Dagannoth Supreme 50 times.|Dagannoth Supreme|Kill Count|3400
+280|Wintertodt Champion|Subdue the Wintertodt 50 times.|Wintertodt|Kill Count|3400
+283|Can We Fix It?|Subdue the Wintertodt without allowing all 4 braziers to be broken at the same time.|Wintertodt|Perfection|3400
+284|Leaving No One Behind|Subdue the Wintertodt without any of the Pyromancers falling.|Wintertodt|Restriction|3400
+44|Skotizo Adept|Kill Skotizo once.|Skotizo|Kill Count|3400
+354|Tempoross Champion|Subdue Tempoross 50 times.|Tempoross|Kill Count|3400
+359|The Lone Angler|Subdue Tempoross alone without getting hit by any fires, torrents or waves.|Tempoross|Perfection|3400
+1|Abyssal Adept|Kill the Abyssal Sire 100 times.|Abyssal Sire|Kill Count|3401
+3|They Grow Up Too Fast|Kill the Abyssal Sire without letting any Scion mature.|Abyssal Sire|Mechanical|3401
+5|Don't Whip Me|Kill the Abyssal Sire without being hit by any external tentacles.|Abyssal Sire|Mechanical|3401
+7|Don't Stop Moving|Kill the Abyssal Sire without taking damage from any miasma pools.|Abyssal Sire|Perfection|3401
+9|Kree'arra Adept|Kill Kree'arra 50 times.|Kree'arra|Kill Count|3401
+12|Airborne Showdown|Finish off Kree'arra whilst all of his bodyguards are dead.|Kree'arra|Mechanical|3401
+16|General Graardor Adept|Kill General Graardor 50 times.|General Graardor|Kill Count|3401
+18|Ourg Freezer|Kill General Graardor whilst he is immobilized.|General Graardor|Mechanical|3401
+20|General Showdown|Finish off General Graardor whilst all of his bodyguards are dead.|General Graardor|Mechanical|3401
+29|Just Like That|Kill Karil using only damage dealt by special attacks.|Barrows|Restriction|3401
+30|Faithless Crypt Run|Kill all six Barrows Brothers and loot the Barrows chest without ever having more than 0 prayer points.|Barrows|Restriction|3401
+42|Callisto Adept|Kill Callisto 50 times.|Callisto|Kill Count|3401
+45|Skotizo Veteran|Kill Skotizo 10 times.|Skotizo|Kill Count|3401
+57|Chaos Elemental Adept|Kill the Chaos Elemental 50 times.|Chaos Elemental|Kill Count|3401
+59|Hoarder|Kill the Chaos Elemental without it unequipping any of your items.|Chaos Elemental|Mechanical|3401
+60|The Flincher|Kill the Chaos Elemental without taking any damage from it's attacks.|Chaos Elemental|Perfection|3401
+62|Chaos Fanatic Adept|Kill the Chaos Fanatic 50 times.|Chaos Fanatic|Kill Count|3401
+64|Praying to the Gods|Kill the Chaos Fanatic 10 times without drinking any potion which restores prayer or leaving the Wilderness.|Chaos Fanatic|Restriction|3401
+71|Crazy Archaeologist Adept|Kill the Crazy Archaeologist 50 times.|Crazy Archaeologist|Kill Count|3401
+82|Grotesque Guardians Adept|Kill the Grotesque Guardians 100 times.|Grotesque Guardians|Kill Count|3401
+84|Don't Look at the Eclipse|Kill the Grotesque Guardians without taking damage from Dusk's blinding attack.|Grotesque Guardians|Mechanical|3401
+85|Prison Break|Kill the Grotesque Guardians without taking damage from Dusk's prison attack.|Grotesque Guardians|Mechanical|3401
+86|Granite Footwork|Kill the Grotesque Guardians without taking damage from Dawn's rockfall attack.|Grotesque Guardians|Mechanical|3401
+87|Heal No More|Kill the Grotesque Guardians without letting Dawn receive any healing from her orbs.|Grotesque Guardians|Mechanical|3401
+88|Static Awareness|Kill the Grotesque Guardians without being hit by any lightning attacks.|Grotesque Guardians|Mechanical|3401
+123|Hespori Adept|Kill Hespori 10 times.|Hespori|Kill Count|3401
+124|Hesporisn't|Finish off Hespori with a special attack.|Hespori|Mechanical|3401
+125|Weed Whacker|Kill all of Hesporis flowers within 5 seconds.|Hespori|Mechanical|3401
+157|Kalphite Queen Adept|Kill the Kalphite Queen 50 times.|Kalphite Queen|Kill Count|3401
+159|Chitin Penetrator|Kill the Kalphite Queen while her defence was last lowered by you.|Kalphite Queen|Mechanical|3401
+167|Who Is the King Now?|Kill The King Black Dragon 10 times in a privately rented instance without leaving the instance.|King Black Dragon|Stamina|3401
+168|Kraken Adept|Kill the Kraken 100 times.|Kraken|Kill Count|3401
+169|Unnecessary Optimization|Kill the Kraken after killing all four tentacles.|Kraken|Mechanical|3401
+170|Krakan't Hurt Me|Kill the Kraken 25 times in a privately rented instance without leaving the room.|Kraken|Stamina|3401
+179|Why Are You Running?|Kill the Giant Mole without her burrowing more than 2 times.|Giant Mole|Mechanical|3401
+181|Whack-a-Mole|Kill the Giant Mole within 10 seconds of her resurfacing.|Giant Mole|Mechanical|3401
+183|Nightmare Champion|Kill The Nightmare once.|The Nightmare|Kill Count|3401
+198|Dagannoth Prime Adept|Kill Dagannoth Prime 150 times.|Dagannoth Prime|Kill Count|3401
+202|Dagannoth Rex Adept|Kill Dagannoth Rex 150 times.|Dagannoth Rex|Kill Count|3401
+208|Ready to Pounce|Kill Sarachnis without her using her range attack twice in a row.|Sarachnis|Mechanical|3401
+209|Inspect Repellent|Kill Sarachnis without her dealing damage to anyone.|Sarachnis|Perfection|3401
+211|Commander Zilyana Adept|Kill Commander Zilyana 50 times.|Commander Zilyana|Kill Count|3401
+213|Commander Showdown|Finish off Commander Zilyana while all of her bodyguards are dead.|Commander Zilyana|Mechanical|3401
+218|Scorpia Adept|Kill Scorpia 50 times.|Scorpia|Kill Count|3401
+220|I Can't Reach That|Kill Scorpia without taking any damage from her.|Scorpia|Perfection|3401
+221|Guardians No More|Kill Scorpia without killing her guardians.|Scorpia|Restriction|3401
+224|Zulrah Adept|Kill Zulrah 100 times.|Zulrah|Kill Count|3401
+234|Dagannoth Supreme Adept|Kill Dagannoth Supreme 150 times.|Dagannoth Supreme|Kill Count|3401
+397|Theatre of Blood: SM Adept|Complete the Theatre of Blood: Entry Mode 1 time.|Theatre of Blood: Entry Mode|Kill Count|3401
+264|Venenatis Adept|Kill Venenatis 50 times.|Venenatis|Kill Count|3401
+266|Vet'ion Adept|Kill Vet'ion 50 times.|Vet'ion|Kill Count|3401
+286|Why Fletch?|Subdue the Wintertodt after earning 3000 or more points.|Wintertodt|Stamina|3401
+332|K'ril Tsutsaroth Adept|Kill K'ril Tsutsaroth 50 times.|K'ril Tsutsaroth|Kill Count|3401
+334|Yarr No More|Receive kill-credit for K'ril Tsutsaroth without him using his special attack.|K'ril Tsutsaroth|Mechanical|3401
+335|Demonic Showdown|Finish off K'ril Tsutsaroth whilst all of his bodyguards are dead.|K'ril Tsutsaroth|Mechanical|3401
+339|Demonbane Weaponry II|Finish off K'ril Tsutsaroth with a demonbane weapon.|K'ril Tsutsaroth|Restriction|3401
+355|Dress Like You Mean It|Subdue Tempoross while wearing any variation of the angler outfit.|Tempoross|Restriction|3401
+358|Why Cook?|Subdue Tempoross, getting rewarded with 10 reward permits from a single Tempoross fight.|Tempoross|Mechanical|3401
+2|Abyssal Veteran|Kill the Abyssal Sire 250 times.|Abyssal Sire|Kill Count|3402
+4|Respiratory Runner|Kill the Abyssal Sire after only stunning him once.|Abyssal Sire|Mechanical|3402
+6|Demonic Rebound|Use the Vengeance spell to reflect the damage from the Abyssal Sire's explosion back to him.|Abyssal Sire|Mechanical|3402
+8|Perfect Sire|Kill the Abyssal Sire without taking damage from the external tentacles, miasma pools, explosion or damage from the Abyssal Sire without praying the appropriate protection prayer.|Abyssal Sire|Perfection|3402
+10|Kree'arra Veteran|Kill Kree'arra 250 times.|Kree'arra|Kill Count|3402
+17|General Graardor Veteran|Kill General Graardor 250 times.|General Graardor|Kill Count|3402
+19|Ourg Freezer II|Kill General Graardor without him attacking any players.|General Graardor|Mechanical|3402
+31|Reflecting on This Encounter|Kill a Basilisk Knight.|Basilisk Knight|Kill Count|3402
+43|Callisto Veteran|Kill Callisto 100 times.|Callisto|Kill Count|3402
+47|Demon Evasion|Kill Skotizo without taking any damage.|Skotizo|Perfection|3402
+49|Up for the Challenge|Kill Skotizo without equipping a demonbane weapon.|Skotizo|Restriction|3402
+51|Cerberus Veteran|Kill Cerberus 150 times.|Cerberus|Kill Count|3402
+54|Ghost Buster|Kill Cerberus after successfully negating 6 or more attacks from Summoned Souls.|Cerberus|Mechanical|3402
+55|Unrequired Antifire|Kill Cerberus without taking damage from any lava pools.|Cerberus|Perfection|3402
+56|Anti-Bite Mechanics|Kill Cerberus without taking any melee damage.|Cerberus|Perfection|3402
+58|Chaos Elemental Veteran|Kill the Chaos Elemental 150 times.|Chaos Elemental|Kill Count|3402
+65|Corporeal Beast Veteran|Kill the Corporeal Beast 50 times.|Corporeal Beast|Kill Count|3402
+67|Hot on Your Feet|Kill the Corporeal Beast without anyone killing the dark core or taking damage from the dark core.|Corporeal Beast|Perfection|3402
+68|Finding the Weak Spot|Finish off the Corporeal Beast with a Crystal Halberd special attack.|Corporeal Beast|Restriction|3402
+69|Chicken Killer|Kill the Corporeal Beast solo.|Corporeal Beast|Restriction|3402
+74|If Gorillas Could Fly|Kill a Demonic Gorilla.|Demonic Gorilla|Kill Count|3402
+75|Hitting Them Where It Hurts|Finish off a Demonic Gorilla with a demonbane weapon.|Demonic Gorilla|Restriction|3402
+81|Galvek Speed-Trialist|Kill Galvek in less than 3 minutes.|Galvek|Speed|3402
+83|Grotesque Guardians Veteran|Kill the Grotesque Guardians 250 times.|Grotesque Guardians|Kill Count|3402
+89|Done before Dusk|Kill the Grotesque Guardians before Dusk uses his prison attack for a second time.|Grotesque Guardians|Mechanical|3402
+90|Perfect Grotesque Guardians|Kill the Grotesque Guardians whilst completing the "Don't look at the eclipse", "Prison Break", "Granite footwork", "Heal no more", "Static Awareness" and "Done before dusk" tasks.|Grotesque Guardians|Perfection|3402
+92|Grotesque Guardians Speed-Trialist|Kill the Grotesque Guardians in less than 2 minutes.|Grotesque Guardians|Speed|3402
+95|From Dusk...|Kill the Grotesque Guardians 10 times without leaving the instance.|Grotesque Guardians|Stamina|3402
+98|Corrupted Gauntlet Veteran|Complete the Corrupted Gauntlet 10 times.|Corrupted Hunllef|Kill Count|3402
+101|3, 2, 1 - Mage|Kill the Corrupted Hunllef without taking damage off prayer.|Corrupted Hunllef|Perfection|3402
+109|Gauntlet Adept|Complete the Gauntlet 10 times.|Crystalline Hunllef|Kill Count|3402
+111|3, 2, 1 - Range|Kill the Crystalline Hunllef without taking damage off prayer.|Crystalline Hunllef|Perfection|3402
+114|Egniol Diet|Kill the Crystalline Hunllef without making an egniol potion within the Gauntlet.|Crystalline Hunllef|Restriction|3402
+115|Crystalline Warrior|Kill the Crystalline Hunllef with a full set of perfected armour equipped.|Crystalline Hunllef|Restriction|3402
+116|Wolf Puncher|Kill the Crystalline Hunllef without making more than one attuned weapon.|Crystalline Hunllef|Restriction|3402
+119|Glough Speed-Trialist|Kill Glough in less than 2 minutes and 30 seconds.|Glough|Speed|3402
+126|Plant-Based Diet|Kill Hespori without losing any prayer points.|Hespori|Restriction|3402
+127|Hespori Speed-Trialist|Kill the Hespori in less than 48 seconds.|Hespori|Speed|3402
+135|Alchemical Master|Kill the Alchemical Hydra 150 times.|Alchemical Hydra|Kill Count|3402
+147|Fight Caves Veteran|Complete the Fight Caves once.|TzTok-Jad|Kill Count|3402
+153|Facing Jad Head-on|Complete the Fight Caves with only melee.|TzTok-Jad|Restriction|3402
+158|Kalphite Queen Veteran|Kill the Kalphite Queen 250 times.|Kalphite Queen|Kill Count|3402
+160|Insect Deflection|Kill the Kalphite Queen by using the Vengeance spell as the finishing blow.|Kalphite Queen|Mechanical|3402
+161|Prayer Smasher|Kill the Kalphite Queen using only the Verac's Flail as a weapon.|Kalphite Queen|Restriction|3402
+171|Ten-tacles|Kill the Kraken 50 times in a privately rented instance without leaving the room.|Kraken|Stamina|3402
+176|Mimic Adept|Kill the Mimic once.|Mimic|Kill Count|3402
+180|Hard Hitter|Kill the Giant Mole with 4 or fewer instances of damage.|Giant Mole|Mechanical|3402
+184|Nightmare Adept|Kill The Nightmare 100 times.|The Nightmare|Kill Count|3402
+187|Explosion!|Kill two Husks at the same time.|The Nightmare|Mechanical|3402
+189|Sleep Tight|Kill the Nightmare solo.|The Nightmare|Restriction|3402
+194|Nightmare (5-Scale) Speed-Trialist|Defeat the Nightmare (5-scale) in less than 5 minutes.|The Nightmare|Speed|3402
+199|Death to the Seer King|Kill Dagannoth Prime whilst under attack by Dagannoth Supreme and Dagannoth Rex.|Dagannoth Prime|Mechanical|3402
+200|From One King to Another|Kill Prime using a Rune Thrownaxe special attack, bounced off Dagannoth Rex.|Dagannoth Prime|Mechanical|3402
+203|Death to the Warrior King|Kill Dagannoth Rex whilst under attack by Dagannoth Supreme and Dagannoth Prime.|Dagannoth Rex|Mechanical|3402
+205|Toppling the Diarchy|Kill Dagannoth Rex and one other Dagannoth king at the exact same time.|Dagannoth Rex|Mechanical|3402
+212|Commander Zilyana Veteran|Kill Commander Zilyana 250 times.|Commander Zilyana|Kill Count|3402
+216|Reminisce|Kill Commander Zilyana in a privately rented instance with melee only.|Commander Zilyana|Restriction|3402
+219|Scorpia Veteran|Kill Scorpia 150 times.|Scorpia|Kill Count|3402
+222|Fragment of Seren Speed-Trialist|Kill The Fragment of Seren in less than 4 minutes.|Fragment of Seren|Speed|3402
+225|Zulrah Veteran|Kill Zulrah 150 times.|Zulrah|Kill Count|3402
+227|Snake Rebound|Kill Zulrah by using the Vengeance spell as the finishing blow.|Zulrah|Mechanical|3402
+228|Snake. Snake!? Snaaaaaake!|Kill 3 Snakelings simultaneously.|Zulrah|Mechanical|3402
+230|Zulrah Speed-Trialist|Kill Zulrah in less than 1 minute 20 seconds, without a slayer task.|Zulrah|Speed|3402
+235|Death to the Archer King|Kill Dagannoth Supreme whilst under attack by Dagannoth Prime and Dagannoth Rex.|Dagannoth Supreme|Mechanical|3402
+236|Rapid Succession|Kill all three Dagannoth Kings within 9 seconds of the first one.|Dagannoth Supreme|Mechanical|3402
+386|Anticoagulants|Defeat the Maiden of Sugadinti in the Theatre of Blood: Entry Mode without letting any bloodspawn live for longer than 10 seconds.|Theatre of Blood: Entry Mode|Mechanical|3402
+387|Appropriate Tools|Defeat the Pestilent Bloat in the Theatre of Blood: Entry Mode with everyone having a salve amulet equipped.|Theatre of Blood: Entry Mode|Mechanical|3402
+388|They Won't Expect This|In the Theatre of Blood: Entry Mode, enter the Pestilent Bloat room from the opposite side.|Theatre of Blood: Entry Mode|Mechanical|3402
+389|Chally Time|Defeat the Pestilent Bloat in the Theatre of Blood: Entry Mode by using a crystal halberd special attack as your final attack.|Theatre of Blood: Entry Mode|Mechanical|3402
+390|Nylocas, On the Rocks|In the Theatre of Blood: Entry Mode, freeze any 4 Nylocas with a single Ice Barrage spell.|Theatre of Blood: Entry Mode|Mechanical|3402
+391|Just To Be Safe|Defeat Sotetseg in the Theatre of Blood: Entry Mode after having split the big ball with your entire team. This must be done with a group size of at least 2.|Theatre of Blood: Entry Mode|Mechanical|3402
+392|Don't Look at Me!|Kill Xarpus in the Theatre of Blood: Entry Mode without him reflecting any damage to anyone.|Theatre of Blood: Entry Mode|Mechanical|3402
+393|No-Pillar|Survive Verzik Vitur's pillar phase in the Theatre of Blood: Entry Mode without losing a single pillar.|Theatre of Blood: Entry Mode|Mechanical|3402
+394|Attack, Step, Wait|Survive Verzik Vitur's second phase in the Theatre of Blood: Entry Mode without anyone getting bounced by Verzik.|Theatre of Blood: Entry Mode|Mechanical|3402
+395|Pass It On|In the Theatre of Blood: Entry Mode, successfully pass on the green ball to a team mate.|Theatre of Blood: Entry Mode|Mechanical|3402
+237|Theatre of Blood Veteran|Complete the Theatre of Blood 75 times.|Theatre of Blood|Kill Count|3402
+261|Thermonuclear Adept|Kill the Thermonuclear Smoke Devil 100 times.|Thermy|Kill Count|3402
+262|Hazard Prevention|Kill the Thermonuclear Smoke Devil without it hitting anyone.|Thermy|Perfection|3402
+263|Spec'd Out|Kill the Thermonuclear Smoke Devil using only special attacks.|Thermy|Restriction|3402
+265|Venenatis Veteran|Kill Venenatis 100 times.|Venenatis|Kill Count|3402
+267|Vet'eran|Kill Vet'ion 100 times.|Vet'ion|Kill Count|3402
+268|Vorkath Veteran|Kill Vorkath 50 times.|Vorkath|Kill Count|3402
+273|Stick 'em With the Pointy End|Kill Vorkath using melee weapons only.|Vorkath|Restriction|3402
+271|Zombie Destroyer|Kill Vorkath's zombified spawn without using crumble undead.|Vorkath|Restriction|3402
+292|Dust Seeker|Complete a Chambers of Xeric Challenge mode raid in the target time.|Chambers of Xeric: CM|Speed|3402
+299|Chambers of Xeric Veteran|Complete the Chambers of Xeric 75 times.|Chambers of Xeric|Kill Count|3402
+302|Perfectly Balanced|Kill the Vanguards without them resetting their health.|Chambers of Xeric|Mechanical|3402
+303|Together We'll Fall|Kill the Vanguards within 10 seconds of the first one dying.|Chambers of Xeric|Mechanical|3402
+308|Redemption Enthusiast|Kill the Abyssal Portal without forcing Vespula to land.|Chambers of Xeric|Mechanical|3402
+307|Mutta-diet|Kill the Muttadile without letting her or her baby recover hitpoints from the meat tree.|Chambers of Xeric|Mechanical|3402
+311|Dancing with Statues|Receive kill-credit for a Stone Guardian without taking damage from falling rocks.|Chambers of Xeric|Perfection|3402
+312|Undying Raid Team|Complete a Chambers of Xeric raid without anyone dying.|Chambers of Xeric|Perfection|3402
+314|Shayzien Specialist|Receive kill-credit for a Lizardman Shaman without taking damage from any shamans in the room.|Chambers of Xeric|Perfection|3402
+316|Cryo No More|Receive kill-credit for the Ice Demon without taking any damage.|Chambers of Xeric|Perfection|3402
+320|Blizzard Dodger|Receive kill-credit for the Ice Demon without activating the Protect from Range prayer.|Chambers of Xeric|Restriction|3402
+321|Kill It with Fire|Finish off the Ice Demon with a fire spell.|Chambers of Xeric|Restriction|3402
+328|Zalcano Veteran|Kill Zalcano 150 times.|Zalcano|Kill Count|3402
+329|Perfect Zalcano|Kill Zalcano 5 times in a row without leaving or getting hit by the following: Falling rocks, rock explosions, Zalcano powering up, or standing in a red symbol.|Zalcano|Perfection|3402
+330|Team Player|Receive imbued tephra from a golem.|Zalcano|Mechanical|3402
+331|The Spurned Hero|Kill Zalcano as the player who has dealt the most damage to her.|Zalcano|Mechanical|3402
+333|K'ril Tsutsaroth Veteran|Kill K'ril Tsutsaroth 250 times.|K'ril Tsutsaroth|Kill Count|3402
+337|Demonic Defence|Kill K'ril Tsutsaroth in a privately rented instance without taking any of his melee hits.|K'ril Tsutsaroth|Perfection|3402
+336|The Bane of Demons|Defeat K'ril Tsutsaroth in a privately rented instance using only demonbane spells.|K'ril Tsutsaroth|Mechanical|3402
+341|Half-Way There|Kill a Jal-Zek within the Inferno.|TzKal-Zuk|Kill Count|3402
+149|A Near Miss!|Complete the Fight Caves after surviving a hit from TzTok-Jad without praying.|TzTok-Jad|Mechanical|3402
+361|The II Jad Challenge|Complete TzHaar-Ket-Rak's second challenge.|TzHaar-Ket-Rak's Challenges|Kill Count|3402
+364|TzHaar-Ket-Rak's Speed-Trialist|Complete TzHaar-Ket-Rak's first challenge in less than 45 seconds.|TzHaar-Ket-Rak's Challenges|Speed|3402
+367|Facing Jad Head-on III|Complete TzHaar-Ket-Rak's second challenge with only melee.|TzHaar-Ket-Rak's Challenges|Restriction|3402
+400|Phosani's Champion|Kill Phosani's Nightmare once.|Phosani's Nightmare|Kill Count|3402
+11|Collateral Damage|Kill Kree'arra in a privately rented instance without ever attacking him directly.|Kree'arra|Mechanical|3403
+13|Swoop No More|Kill Kree'arra in a privately rented instance without taking any melee damage from the boss or his bodyguards.|Kree'arra|Perfection|3403
+50|Precise Positioning|Kill Skotizo with the final source of damage being a Chinchompa explosion.|Skotizo|Restriction|3403
+52|Cerberus Master|Kill Cerberus 250 times.|Cerberus|Kill Count|3403
+53|Arooo No More|Kill Cerberus without any of the Summoned Souls being spawned.|Cerberus|Mechanical|3403
+66|Corporeal Beast Master|Kill the Corporeal Beast 150 times.|Corporeal Beast|Kill Count|3403
+91|Perfect Grotesque Guardians II|Kill the Grotesque Guardians 5 times in a row whilst completing the Perfect Grotesque Guardians task every time.|Grotesque Guardians|Perfection|3403
+93|Grotesque Guardians Speed-Chaser|Kill the Grotesque Guardians in less than 1:40 minutes.|Grotesque Guardians|Speed|3403
+96|... 'til Dawn|Kill the Grotesque Guardians 20 times without leaving the instance.|Grotesque Guardians|Stamina|3403
+99|Corrupted Gauntlet Master|Complete the Corrupted Gauntlet 50 times.|Corrupted Hunllef|Kill Count|3403
+102|Perfect Corrupted Hunllef|Kill the Corrupted Hunllef without taking damage from: Tornadoes, Damaging Floor or Stomp Attacks. Also, do not take damage off prayer and do not attack the Corrupted Hunleff with the wrong weapon.|Corrupted Hunllef|Perfection|3403
+103|Defence Doesn't Matter II|Kill the Corrupted Hunllef without making any armour within the Corrupted Gauntlet.|Corrupted Hunllef|Restriction|3403
+105|Corrupted Warrior|Kill the Corrupted Hunllef with a full set of perfected corrupted armour equipped.|Corrupted Hunllef|Restriction|3403
+107|Corrupted Gauntlet Speed-Chaser|Complete a Corrupted Gauntlet in less than 7 minutes and 30 seconds.|Corrupted Hunllef|Speed|3403
+110|Gauntlet Master|Complete the Gauntlet 100 times.|Crystalline Hunllef|Kill Count|3403
+112|Perfect Crystalline Hunllef|Kill the Crystalline Hunllef without taking damage from: Tornadoes, Damaging Floor or Stomp Attacks. Also, do not take damage off prayer and do not attack the Crystalline Hunleff with the wrong weapon.|Crystalline Hunllef|Perfection|3403
+113|Defence Doesn't Matter|Kill the Crystalline Hunllef without making any armour within the Gauntlet.|Crystalline Hunllef|Restriction|3403
+117|Gauntlet Speed-Chaser|Complete the Gauntlet in less than 5 minutes.|Crystalline Hunllef|Speed|3403
+128|Hespori Speed-Chaser|Kill the Hespori in less than 36 seconds.|Hespori|Speed|3403
+136|Alchemical Grandmaster|Kill the Alchemical Hydra 250 times.|Alchemical Hydra|Kill Count|3403
+137|Unrequired Antipoisons|Kill the Alchemical Hydra without being hit by the acid pool attack.|Alchemical Hydra|Mechanical|3403
+138|Lightning Lure|Kill the Alchemical Hydra without being hit by the lightning attack.|Alchemical Hydra|Mechanical|3403
+139|Don't Flame Me|Kill the Alchemical Hydra without being hit by the flame wall attack.|Alchemical Hydra|Mechanical|3403
+140|Mixing Correctly|Kill the Alchemical Hydra without empowering it.|Alchemical Hydra|Mechanical|3403
+141|The Flame Skipper|Kill the Alchemical Hydra without letting it spawn a flame wall attack.|Alchemical Hydra|Mechanical|3403
+142|Alcleanical Hydra|Kill the Alchemical Hydra without taking any damage.|Alchemical Hydra|Perfection|3403
+144|Alchemical Speed-Chaser|Kill the Alchemical Hydra in less than 1 minute 45 seconds.|Alchemical Hydra|Speed|3403
+146|Working Overtime|Kill the Alchemical Hydra 15 times without leaving the room.|Alchemical Hydra|Stamina|3403
+148|Fight Caves Master|Complete the Fight Caves 10 times.|TzTok-Jad|Kill Count|3403
+150|Denying the Healers|Complete the Fight caves without letting any of the Yt-MejKot heal.|TzTok-Jad|Mechanical|3403
+152|You Didn't Say Anything About a Bat|Complete the Fight Caves without being attacked by a Tz-Kih.|TzTok-Jad|Mechanical|3403
+155|Fight Caves Speed-Chaser|Complete the Fight Caves in less than 30 minutes.|TzTok-Jad|Speed|3403
+172|One Hundred Tentacles|Kill the Kraken 100 times in a privately rented instance without leaving the room.|Kraken|Stamina|3403
+185|Nightmare Veteran|Kill The Nightmare 250 times.|The Nightmare|Kill Count|3403
+188|Perfect Nightmare|Kill the Nightmare without any player taking damage from the following attacks: Nightmare rifts, an un-cured parasite explosion, Corpse flowers or the Nightmare's Surge. Also, no player can take damage off prayer or have their attacks slowed by the Nightmare spores.|The Nightmare|Perfection|3403
+191|Nightmare (Solo) Speed-Trialist|Defeat the Nightmare (Solo) in less than 23 minutes.|The Nightmare|Speed|3403
+192|Nightmare (Solo) Speed-Chaser|Defeat the Nightmare (Solo) in less than 19 minutes.|The Nightmare|Speed|3403
+195|Nightmare (5-Scale) Speed-Chaser|Defeat the Nightmare (5-scale) in less than 4 minutes.|The Nightmare|Speed|3403
+215|Moving Collateral|Kill Commander Zilyana in a privately rented instance without attacking her directly.|Commander Zilyana|Restriction|3403
+226|Zulrah Master|Kill Zulrah 250 times.|Zulrah|Kill Count|3403
+229|Perfect Zulrah|Kill Zulrah whilst taking no damage from the following: Snakelings, Venom Clouds, Zulrah's Green or Crimson phase.|Zulrah|Perfection|3403
+231|Zulrah Speed-Chaser|Kill Zulrah in less than 1 minute, without a slayer task.|Zulrah|Speed|3403
+250|Can't Drain This|Kill The Maiden of Sugadinti without anyone in the team losing any prayer points.|Theatre of Blood|Restriction|3403
+244|Perfect Maiden|Kill The Maiden of Sugadinti without anyone in the team taking damage from the following sources: Blood Spawn projectiles and Blood Spawn trails. Also, without taking damage off prayer and without letting any of the Nylocas Matomenos heal The Maiden.|Theatre of Blood|Perfection|3403
+240|Two-Down|Kill the Pestilent Bloat before he shuts down for the third time.|Theatre of Blood|Mechanical|3403
+245|Perfect Bloat|Kill the Pestilent Bloat without anyone in the team taking damage from the following sources: Pestilent flies, Falling body parts or The Pestilent Bloats stomp attack.|Theatre of Blood|Perfection|3403
+246|Perfect Nylocas|Kill the Nylocas Vasilias without anyone in the team attacking any Nylocas with the wrong attack style, without letting a pillar collapse and without getting hit by any of the Nylocas Vasilias attacks whilst off prayer.|Theatre of Blood|Perfection|3403
+242|A Timely Snack|Kill Sotetseg after surviving at least 3 ball attacks without sharing the damage and without anyone dying throughout the fight.|Theatre of Blood|Mechanical|3403
+247|Perfect Sotesteg|Kill Sotetseg without anyone in the team stepping on the wrong tile in the maze, without getting hit by the tornado and without taking any damage from Sotetseg's attacks whilst off prayer.|Theatre of Blood|Perfection|3403
+251|Can You Dance?|Kill Xarpus without anyone in the team using a ranged or magic weapon.|Theatre of Blood|Restriction|3403
+248|Perfect Xarpus|Kill Xarpus without anyone in the team taking any damage from Xarpus' attacks and without letting an exhumed heal Xarpus more than twice.|Theatre of Blood|Perfection|3403
+241|Pop It|Kill Verzik without any Nylocas being frozen and without anyone taking damage from the Nylocas.|Theatre of Blood|Mechanical|3403
+249|Perfect Verzik|Defeat Verzik Vitur without anyone in the team taking damage from Verzik Vitur's attacks other than her spider form's correctly prayed against regular magical and ranged attacks.|Theatre of Blood|Perfection|3403
+253|Back in My Day...|Complete the Theatre of Blood without any member of the team equipping a Scythe of Vitur.|Theatre of Blood|Restriction|3403
+255|Theatre (Trio) Speed-Chaser|Complete the Theatre of Blood (Trio) in less than 20 minutes.|Theatre of Blood|Speed|3403
+257|Theatre (4-Scale) Speed-Chaser|Complete the Theatre of Blood (4-scale) in less than 17 minutes.|Theatre of Blood|Speed|3403
+259|Theatre (5-Scale) Speed-Chaser|Complete the Theatre of Blood (5-scale) in less than 16 minutes.|Theatre of Blood|Speed|3403
+238|Theatre of Blood Master|Complete the Theatre of Blood 150 times.|Theatre of Blood|Kill Count|3403
+269|Vorkath Master|Kill Vorkath 250 times.|Vorkath|Kill Count|3403
+270|The Walk|Hit Vorkath 12 times during the acid special without getting hit by his rapid fire or the acid pools.|Vorkath|Mechanical|3403
+272|Dodging the Dragon|Kill Vorkath 5 times without taking any damage from his special attacks and without leaving his area.|Vorkath|Perfection|3403
+276|Vorkath Speed-Chaser|Kill Vorkath in less than 1 minute and 15 seconds.|Vorkath|Speed|3403
+278|Extended Encounter|Kill Vorkath 10 times without leaving his area.|Vorkath|Stamina|3403
+288|Chambers of Xeric: CM Master|Complete the Chambers of Xeric: Challenge Mode 50 times.|Chambers of Xeric: CM|Kill Count|3403
+290|Immortal Raid Team|Complete a Chambers of Xeric: Challenge mode raid without anyone dying.|Chambers of Xeric: CM|Perfection|3403
+291|Immortal Raider|Complete a Chambers of Xeric Challenge mode (Solo) raid without dying.|Chambers of Xeric: CM|Perfection|3403
+293|Chambers of Xeric: CM (Solo) Speed-Chaser|Complete a Chambers of Xeric: Challenge Mode (Solo) in less than 45 minutes.|Chambers of Xeric: CM|Speed|3403
+295|Chambers of Xeric: CM (5-Scale) Speed-Chaser|Complete a Chambers of Xeric: Challenge Mode (5-scale) in less than 30 minutes.|Chambers of Xeric: CM|Speed|3403
+297|Chambers of Xeric: CM (Trio) Speed-Chaser|Complete a Chambers of Xeric: Challenge Mode (Trio) in less than 35 minutes.|Chambers of Xeric: CM|Speed|3403
+300|Chambers of Xeric Master|Complete the Chambers of Xeric 150 times.|Chambers of Xeric|Kill Count|3403
+304|No Time for Death|Clear the Tightrope room without Killing any Deathly Mages or Deathly Rangers.|Chambers of Xeric|Mechanical|3403
+305|Putting It Olm on the Line|Complete a Chambers of Xeric solo raid with more than 40,000 points.|Chambers of Xeric|Mechanical|3403
+306|A Not So Special Lizard|Kill the Great Olm in a solo raid without letting him use any of the following special attacks in his second to last phase: Crystal Burst, Lightning Walls, Teleportation Portals or left-hand autohealing.|Chambers of Xeric|Mechanical|3403
+309|Stop Drop and Roll|Kill Vasa Nistirio before he performs his teleport attack for the second time.|Chambers of Xeric|Mechanical|3403
+310|Anvil No More|Kill Tekton before he returns to his anvil for a second time after the fight begins.|Chambers of Xeric|Mechanical|3403
+313|Undying Raider|Complete a Chambers of Xeric solo raid without dying.|Chambers of Xeric|Perfection|3403
+315|Playing with Lasers|Clear the Crystal Crabs room without wasting an orb after the first crystal has been activated.|Chambers of Xeric|Perfection|3403
+317|Perfect Olm (Solo)|Kill the Great Olm in a solo raid without taking damage from any of the following: Teleport portals, Fire Walls, Healing pools, Crystal Bombs, Crystal Burst or Prayer Orbs. You also cannot let his claws regenerate or take damage from the same acid pool back to back.|Chambers of Xeric|Perfection|3403
+318|Perfect Olm (Trio)|Kill the Great Olm in a trio raid without any team member taking damage from any of the following: Teleport portals, Fire Walls, Healing pools, Crystal Bombs, Crystal Burst or Prayer Orbs. You also cannot let his claws regenerate or take damage from the same acid pool back to back.|Chambers of Xeric|Perfection|3403
+319|Blind Spot|Kill Tekton without taking any damage.|Chambers of Xeric|Perfection|3403
+322|Chambers of Xeric (Solo) Speed-Chaser|Complete a Chambers of Xeric (Solo) in less than 21 minutes.|Chambers of Xeric|Speed|3403
+326|Chambers of Xeric (Trio) Speed-Chaser|Complete a Chambers of Xeric (Trio) in less than 16 minutes and 30 seconds.|Chambers of Xeric|Speed|3403
+324|Chambers of Xeric (5-Scale) Speed-Chaser|Complete a Chambers of Xeric (5-scale) in less than 15 minutes.|Chambers of Xeric|Speed|3403
+346|Nibblers, Begone!|Kill TzKal-Zuk without letting a pillar fall before wave 67.|TzKal-Zuk|Perfection|3403
+362|The IV Jad Challenge|Complete TzHaar-Ket-Rak's fourth challenge.|TzHaar-Ket-Rak's Challenges|Kill Count|3403
+365|TzHaar-Ket-Rak's Speed-Chaser|Complete TzHaar-Ket-Rak's third challenge in less than 3 minutes.|TzHaar-Ket-Rak's Challenges|Speed|3403
+368|Facing Jad Head-on IV|Complete TzHaar-Ket-Rak's fourth challenge with only melee.|TzHaar-Ket-Rak's Challenges|Restriction|3403
+369|Supplies? Who Needs 'em?|Complete TzHaar-Ket-Rak's third challenge without having anything in your inventory.|TzHaar-Ket-Rak's Challenges|Perfection|3403
+371|Multi-Style Specialist|Complete TzHaar-Ket-Rak's third challenge while using a different attack style for each JalTok-Jad.|TzHaar-Ket-Rak's Challenges|Mechanical|3403
+381|Hard Mode? Completed It|Complete the Theatre of Blood: Hard Mode within the challenge time.|Theatre of Blood: Hard Mode|Speed|3403
+396|Theatre of Blood: SM Speed-Chaser|Complete the Theatre of Blood: Entry Mode in less than 17 minutes.|Theatre of Blood: Entry Mode|Speed|3403
+401|Phosani's Adept|Kill Phosani's Nightmare 25 times.|Phosani's Nightmare|Kill Count|3403
+404|Phosani's Speedchaser|Kill Phosani's Nightmare within 9 minutes.|Phosani's Nightmare|Speed|3403
+406|Crush Hour|Kill Phosani's Nightmare while killing every husk and parasite in one hit.|Phosani's Nightmare|Mechanical|3403
+407|I Would Simply React|Kill Phosani's Nightmare without her disabling your prayer.|Phosani's Nightmare|Mechanical|3403
+408|Dreamland Express|Kill Phosani's Nightmare without letting a sleepwalker reach her during the desperation phase.|Phosani's Nightmare|Mechanical|3403
+14|The Worst Ranged Weapon|Kill Kree'arra by only dealing damage to him with a salamander.|Kree'arra|Restriction|3404
+15|Feather Hunter|Kill Kree'arra 30 times in a privately rented instance without leaving the room.|Kree'arra|Stamina|3404
+21|Defence Matters|Kill General Graardor 2 times consecutively in a privately rented instance without taking any damage from his bodyguards.|General Graardor|Perfection|3404
+22|Keep Away|Kill General Graardor in a privately rented instance without taking any damage from the boss or bodyguards.|General Graardor|Perfection|3404
+23|Ourg Killer|Kill General Graardor 15 times in a privately rented instance without leaving the room.|General Graardor|Stamina|3404
+94|Grotesque Guardians Speed-Runner|Kill the Grotesque Guardians in less than 1:20 minutes.|Grotesque Guardians|Speed|3404
+100|Corrupted Gauntlet Grandmaster|Complete the Corrupted Gauntlet 150 times.|Corrupted Hunllef|Kill Count|3404
+104|Egniol Diet II|Kill the Corrupted Hunllef without making an egniol potion within the Corrupted Gauntlet.|Corrupted Hunllef|Restriction|3404
+106|Wolf Puncher II|Kill the Corrupted Hunllef without making more than one attuned weapon.|Corrupted Hunllef|Restriction|3404
+108|Corrupted Gauntlet Speed-Runner|Complete a Corrupted Gauntlet in less than 6 minutes and 30 seconds.|Corrupted Hunllef|Speed|3404
+118|Gauntlet Speed-Runner|Complete the Gauntlet in less than 4 minutes.|Crystalline Hunllef|Speed|3404
+143|No Pressure|Kill the Alchemical Hydra using only Dharok's Greataxe as a weapon whilst having no more than 10 Hitpoints throughout the entire fight.|Alchemical Hydra|Restriction|3404
+145|Alchemical Speed-Runner|Kill the Alchemical Hydra in less than 1 minute 20 seconds.|Alchemical Hydra|Speed|3404
+151|Denying the Healers II|Complete the Fight Caves without TzTok-Jad being healed by a Yt-HurKot.|TzTok-Jad|Mechanical|3404
+154|No Time for a Drink|Complete the Fight Caves without losing any prayer points.|TzTok-Jad|Restriction|3404
+156|Fight Caves Speed-Runner|Complete the Fight Caves in less than 26 minutes and 30 seconds.|TzTok-Jad|Speed|3404
+186|Terrible Parent|Kill the Nightmare solo without the Parasites healing the boss for more than 100 health.|The Nightmare|Mechanical|3404
+190|A Long Trip|Kill the Nightmare without any player losing any prayer points.|The Nightmare|Restriction|3404
+193|Nightmare (Solo) Speed-Runner|Defeat the Nightmare (Solo) in less than 16 minutes.|The Nightmare|Speed|3404
+196|Nightmare (5-Scale) Speed-Runner|Defeat the Nightmare (5-scale) in less than 3:30 minutes.|The Nightmare|Speed|3404
+214|Animal Whisperer|Kill Commander Zilyana in a privately rented instance without taking any damage from the boss or bodyguards.|Commander Zilyana|Perfection|3404
+217|Peach Conjurer|Kill Commander Zilyana 50 times in a privately rented instance without leaving the room.|Commander Zilyana|Stamina|3404
+232|Zulrah Speed-Runner|Kill Zulrah in less than 54 seconds, without a slayer task.|Zulrah|Speed|3404
+239|Theatre of Blood Grandmaster|Complete the Theatre of Blood 250 times.|Theatre of Blood|Kill Count|3404
+243|Perfect Theatre|Complete the Theatre of Blood without anyone dying through any means and whilst everyone in the team completes the following Combat Achievement tasks in a single run: "Perfect Maiden", "Perfect Bloat", "Perfect Nylocas", "Perfect Sotetseg", "Perfect Xarpus" and "Perfect Verzik".|Theatre of Blood|Perfection|3404
+252|Morytania Only|Complete the Theatre of Blood without any member of the team equipping a non-barrows weapon (except Dawnbringer).|Theatre of Blood|Restriction|3404
+254|Theatre (Duo) Speed-Runner|Complete the Theatre of Blood (Duo) in less than 26 minutes.|Theatre of Blood|Speed|3404
+256|Theatre (Trio) Speed-Runner|Complete the Theatre of Blood (Trio) in less than 17 minutes and 30 seconds.|Theatre of Blood|Speed|3404
+258|Theatre (4-Scale) Speed-Runner|Complete the Theatre of Blood (4-scale) in less than 15 minutes.|Theatre of Blood|Speed|3404
+260|Theatre (5-Scale) Speed-Runner|Complete the Theatre of Blood (5-scale) in less than 14 minutes and 15 seconds.|Theatre of Blood|Speed|3404
+274|Faithless Encounter|Kill Vorkath without losing any prayer points.|Vorkath|Restriction|3404
+275|The Fremennik Way|Kill Vorkath with only your fists.|Vorkath|Restriction|3404
+277|Vorkath Speed-Runner|Kill Vorkath in less than 54 seconds.|Vorkath|Speed|3404
+289|Chambers of Xeric: CM Grandmaster|Complete the Chambers of Xeric: Challenge Mode 150 times.|Chambers of Xeric: CM|Kill Count|3404
+294|Chambers of Xeric: CM (Solo) Speed-Runner|Complete a Chambers of Xeric: Challenge Mode (Solo) in less than 38 minutes and 30 seconds.|Chambers of Xeric: CM|Speed|3404
+296|Chambers of Xeric: CM (5-Scale) Speed-Runner|Complete a Chambers of Xeric: Challenge Mode (5-scale) in less than 25 minutes.|Chambers of Xeric: CM|Speed|3404
+298|Chambers of Xeric: CM (Trio) Speed-Runner|Complete a Chambers of Xeric: Challenge Mode (Trio) in less than 27 minutes.|Chambers of Xeric: CM|Speed|3404
+301|Chambers of Xeric Grandmaster|Complete the Chambers of Xeric 250 times.|Chambers of Xeric|Kill Count|3404
+323|Chambers of Xeric (Solo) Speed-Runner|Complete a Chambers of Xeric (Solo) in less than 17 minutes.|Chambers of Xeric|Speed|3404
+327|Chambers of Xeric (Trio) Speed-Runner|Complete a Chambers of Xeric (Trio) in less than 14 minutes and 30 seconds.|Chambers of Xeric|Speed|3404
+325|Chambers of Xeric (5-Scale) Speed-Runner|Complete a Chambers of Xeric (5-scale) in less than 12 minutes and 30 seconds.|Chambers of Xeric|Speed|3404
+338|Demon Whisperer|Kill K'ril Tsutsaroth in a privately rented instance without ever being hit by his bodyguards.|K'ril Tsutsaroth|Perfection|3404
+340|Ash Collector|Kill K'ril Tsutsaroth 20 times in a privately rented instance without leaving the room.|K'ril Tsutsaroth|Stamina|3404
+342|Inferno Grandmaster|Complete the Inferno 10 times.|TzKal-Zuk|Kill Count|3404
+343|The Floor Is Lava|Kill TzKal-Zuk without letting Jal-ImKot dig during any wave in the Inferno.|TzKal-Zuk|Mechanical|3404
+344|Playing with Jads|Complete wave 68 of the Inferno within 30 seconds of the first JalTok-Jad dying.|TzKal-Zuk|Mechanical|3404
+345|No Luck Required|Kill TzKal-Zuk without being attacked by TzKal-Zuk and without taking damage from a JalTok-Jad.|TzKal-Zuk|Perfection|3404
+347|Wasn't Even Close|Kill TzKal-Zuk without letting your hitpoints fall below 50 during any wave in the Inferno.|TzKal-Zuk|Restriction|3404
+348|Budget Setup|Kill TzKal-Zuk without equipping a Twisted Bow within the Inferno.|TzKal-Zuk|Restriction|3404
+349|Nibbler Chaser|Kill TzKal-Zuk without using any magic spells during any wave in the Inferno.|TzKal-Zuk|Restriction|3404
+350|Facing Jad Head-on II|Kill TzKal-Zuk without equipping any range or mage weapons before wave 69.|TzKal-Zuk|Restriction|3404
+351|Jad? What Are You Doing Here?|Kill TzKal-Zuk without killing the JalTok-Jad which spawns during wave 69.|TzKal-Zuk|Restriction|3404
+352|Inferno Speed-Runner|Complete the Inferno in less than 65 minutes.|TzKal-Zuk|Speed|3404
+363|The VI Jad Challenge|Complete TzHaar-Ket-Rak's sixth challenge.|TzHaar-Ket-Rak's Challenges|Kill Count|3404
+366|TzHaar-Ket-Rak's Speed-Runner|Complete TzHaar-Ket-Rak's fifth challenge in less than 5 minutes.|TzHaar-Ket-Rak's Challenges|Speed|3404
+370|It Wasn't a Fluke|Complete TzHaar-Ket-Rak's fifth and sixth challenges back to back without failing.|TzHaar-Ket-Rak's Challenges|Perfection|3404
+372|Stop Right There!|Defeat the Maiden of Sugadinti in the Theatre of Blood: Hard Mode without letting blood spawns create more than 15 blood trails.|Theatre of Blood: Hard Mode|Mechanical|3404
+373|Personal Space|Defeat the Pestilent Bloat in the Theatre of Blood: Hard Mode with a least 3 people in the room, without anyone in your team standing on top of each other.|Theatre of Blood: Hard Mode|Mechanical|3404
+374|Royal Affairs|In the Theatre of Blood: Hard Mode, complete the Nylocas room without ever letting the Nylocas Prinkipas change styles.|Theatre of Blood: Hard Mode|Mechanical|3404
+375|Harder Mode I|Defeat Sotetseg in the Theatre of Blood: Hard Mode without anyone sharing the ball with anyone, without anyone dying, and without anyone taking damage from any of its other attacks or stepping on the wrong tile in the maze.|Theatre of Blood: Hard Mode|Perfection|3404
+376|Harder Mode II|Defeat Xarpus in the Theatre of Blood: Hard Mode after letting the exhumeds heal him to full health and without anyone in the team taking any damage.|Theatre of Blood: Hard Mode|Perfection|3404
+377|Nylo Sniper|Defeat Verzik Vitur's in the Theatre of Blood: Hard Mode without anyone in your team causing a Nylocas to explode by getting too close.|Theatre of Blood: Hard Mode|Mechanical|3404
+378|Team Work Makes the Dream Work|When Verzik Vitur in the Theatre of Blood: Hard Mode uses her yellow power blast attack while the tornadoes are active, have everyone get through the attack without taking damage. This cannot be completed with one player alive|Theatre of Blood: Hard Mode|Mechanical|3404
+379|Harder Mode III|Defeat Verzik Vitur in the Theatre of Blood: Hard Mode without anyone attacking her with a melee weapon during her third phase.|Theatre of Blood: Hard Mode|Restriction|3404
+380|Pack Like a Yak|Complete the Theatre of Blood: Hard Mode within the challenge time, with no deaths and without anyone buying anything from a supply chest.|Theatre of Blood: Hard Mode|Restriction|3404
+382|Theatre: HM (Trio) Speed-Runner|Complete the Theatre of Blood: Hard Mode (Trio) with an overall time of less than 23 minutes.|Theatre of Blood: Hard Mode|Speed|3404
+383|Theatre: HM (4-Scale) Speed-Runner|	Complete the Theatre of Blood: Hard Mode (4-scale) with an overall time of less than 21 minutes.|Theatre of Blood: Hard Mode|Speed|3404
+384|Theatre: HM (5-Scale) Speed-Runner|Complete the Theatre of Blood: Hard Mode (5-scale) with an overall time of less than 19 minutes.|Theatre of Blood: Hard Mode|Speed|3404
+385|Theatre of Blood: HM Grandmaster|Complete the Theatre of Blood: Hard Mode 100 times.|Theatre of Blood: Hard Mode|Kill Count|3404
+402|Phosani's Veteran|Kill Phosani's Nightmare 100 times.|Phosani's Nightmare|Kill Count|3404
+403|Perfect Phosani's Nightmare|Kill Phosani's Nightmare while only taking damage from husks, power blasts and weakened parasites. Also, without becoming infected by spores or letting a sleepwalker reach Phosani's Nightmare.|Phosani's Nightmare|Perfection|3404
+405|Phosani's Speedrunner|Kill Phosani's Nightmare within 7 minutes and 30 seconds.|Phosani's Nightmare|Speed|3404
+409|Can't Wake Up|Kill Phosani's Nightmare 5 times in a row without leaving Phosani's Dream.|Phosani's Nightmare|Stamina|3404
