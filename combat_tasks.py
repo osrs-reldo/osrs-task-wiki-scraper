@@ -42,6 +42,7 @@ def run():
 		task["description"] = task_datum["description"]
 		task["category"] = task_datum["type"]
 		task["tier"] = get_tier_from_icon(task_datum["tier_icon"])
+		task["clientSortId"] = task_datum["client_sort_id"]
 		tasks.append(task)
 
 	skipSort = True
