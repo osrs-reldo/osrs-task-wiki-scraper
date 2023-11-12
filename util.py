@@ -5,7 +5,8 @@ import mwparserfromhell as mw
 from typing import *
 
 VERSION_EXTRACTOR = re.compile(r"(.*?)([0-9]+)?$")
-LINK_PATTERN = re.compile(r"\[\[(.+\|)?(.+)\]\]")
+LINK_PATTERN = re.compile(r"(.*?)\[\[(.+?\|)?(.+?)\]\](.*)")
+EMBED_PATTERN = re.compile(r"(.*?)\{\{(.+?\|)?(.+?)\}\}(.*)")
 
 
 def each_row(rowName: str, code):
@@ -142,14 +143,30 @@ def has_template(name: str, code) -> bool:
 
 def strip(input: str) -> str:
 	stripped = input.strip()
-	stripped = stripped.replace("[[", "")
-	stripped = stripped.replace("]]", "")
 	stripped = stripped.replace("===", "")
 	stripped = stripped.replace("==", "")
 
-	matcher = LINK_PATTERN.search(stripped)
-	if matcher is None:
-		return stripped
-	stripped = matcher.group(2)
-	
+	parts = []
+	linkMatcher = LINK_PATTERN.search(stripped)
+	while not linkMatcher is None:
+		parts.append(linkMatcher.group(1))
+		parts.append(linkMatcher.group(3))
+		stripped = linkMatcher.group(4)
+		linkMatcher = LINK_PATTERN.search(stripped)
+	parts.append(stripped)
+	stripped = "".join(parts)
+
+	parts = []
+	embedMatcher = EMBED_PATTERN.search(stripped)
+	while not embedMatcher is None:
+		parts.append(embedMatcher.group(1))
+		parts.append(embedMatcher.group(3))
+		stripped = embedMatcher.group(4)
+		embedMatcher = EMBED_PATTERN.search(stripped)
+	parts.append(stripped)
+	stripped = "".join(parts)
+
+	stripped = stripped.replace("[[", "")
+	stripped = stripped.replace("]]", "")
+
 	return stripped
