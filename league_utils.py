@@ -38,7 +38,7 @@ def convert_league_row_to_task_new(row):
 		"description": util.strip(str(row.get('2'))),
 		"skills": skills,
 		"other": util.strip(str(row["other"])) if "other" in row else "",
-		"tier": util.strip(str(row["tier"])),
+		"tier": util.strip(str(row["tier"]).capitalize()),
 		"area": util.strip(str(row["region"]))
 	}
 
